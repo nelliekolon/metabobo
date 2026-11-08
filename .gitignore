@@ -28,3 +28,6 @@ test2.tsv
 
 # Eval answer key: kept local until the LLM eval has been run
 eval_private/
+
+# API keys
+.env
