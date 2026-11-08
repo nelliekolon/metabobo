@@ -44,8 +44,9 @@ pandas 3 breaks check_table.py.
 - MSV000085256: one plasma sample per person (MCI vs Normal); scan range m/z 100+.
 - MSV000094097: plasma AND serum from the same people; PC1 is plasma vs serum.
   Scan range starts at m/z 150, so creatinine/proline/betaine/leucine are out of range.
-- MTBLS2469: each sample injected 3x; _P_2 is a different acquisition in all 50 samples
-  (scripts/check_injections.py), so only _P_3 is used. Signal drifts between run days (pool CV
+- MTBLS2469: each sample injected 3x; _P_2 is the MS2 (DDA) run, _P_3/_P_4 are MS1-only. _P_2
+  has fewer MS1 scans and agrees less in all 50 samples (scripts/check_injections.py), so only
+  _P_3 is used. Signal drifts between run days (pool CV
   64%); batch_correct.py brings held-out pool CV to 47%. CURRENT table: table_v3_batchcorr.
   Only 8 people over 9 run days, and COVID severity is confounded with run day: not usable
   as a training set for severity.

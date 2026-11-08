@@ -51,8 +51,9 @@ def rule_msv094097(path, name):
 def rule_mtbls2469(path, name):
     # Patient samples/Reg_x/04102020_Covid_TP_Mild_9030_1_P325_P_2 -> person 9030, visit 1, group Mild
     # QCPool/17102020_QCPool_Set4_P_3[_test]
-    # Every sample was injected 3 times (_P_2/_3/_4). Injection 3 is the one used: on a test sample
-    # _3 and _4 agreed (r=0.83) but _2 had fewer spectra, more features and a shifted LPC RT (r=0.71).
+    # Every sample was injected 3 times (_P_2/_3/_4). _P_2 is the MS2 (DDA) run: 1,728 MS1 + 3,424
+    # MS2 scans vs 2,295 MS1-only scans in _3/_4, so it samples MS1 more coarsely and agrees less
+    # (r 0.68 vs 0.82 in all 50 samples; check_injections.py). Injection 3 is used.
     # Filenames start with the run day (DDMMYYYY), used as the batch for batch_correct.py.
     day = f"{name[4:8]}-{name[2:4]}-{name[0:2]}"
     m = re.match(r"\d{8}_Covid(?:Pos|_TP_(.+?))_(\d{4})_(\d+)_P\d+_P_(\d+)$", name)

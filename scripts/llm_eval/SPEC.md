@@ -55,6 +55,11 @@ Output: JSON, one object per field: `value`, `quote` (verbatim supporting text f
   cases where the paper itself disagrees with the data (or describes a different acquisition);
   reported separately, not counted as model errors.
 - **Calibration**: accuracy by stated confidence.
+- **Majority baseline**: for each field, the score of always answering the most common true value
+  in the set (e.g. "positive", "Q Exactive"). A model only gets credit for beating it. The 4 pilot
+  studies measured so far are all positive-mode Q Exactive, so on those fields the pilot cannot
+  tell reading from guessing; the full set must be chosen to include negative mode, HILIC and
+  other instruments (the survey's `instrument` column helps).
 
 All metrics per field and overall, with bootstrap intervals over studies.
 
