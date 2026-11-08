@@ -31,6 +31,11 @@ pandas 3 breaks check_table.py.
    Keeps features found in >=80% of samples, log2, min-imputation, median normalization;
    reports pooled-QC CV, within-person similarity, PCA (by visit/matrix/role) and
    known-compound hits. Reads ../samples.tsv; writes check_report.txt via tee.
+4. scripts/match_studies.py processed/crossstudy MSV000085256=<table dir> <study>=<table dir> ...
+   Matches each study's filtered features to a reference study: m/z within 10 ppm plus an
+   order-preserving (isotonic) RT map fitted on unambiguous high-intensity m/z anchors.
+   RT tolerance from cross-validated anchor error. Known compounds are held out as a check.
+   Output: feature_map.tsv (reference feature -> matched feature per study), match_report.txt.
 
 ## Study notes
 - MSV000085256: one plasma sample per person (MCI vs Normal); scan range m/z 100+.
