@@ -34,3 +34,8 @@ within-study CV on MSV000085256 (all 7602 features):
                              age MAE 12.3 y [7.3-19.1] vs 11.8 y predicting the training mean; r=0.23 (n=8, age 40-77)
   blood plasma  per-study z  sex n=8 people, one sex only: not testable
                              age MAE 11.7 y [7.3-18.0] vs 11.8 y predicting the training mean; r=0.31 (n=8, age 40-77)
+
+confound check (MSV000085256: 14/19 women are MCI, 17/57 men): out-of-fold sex scores
+  overall AUC 0.72; within MCI 0.69 (17 M / 14 F); within Normal 0.68 (40 M / 5 F)
+  -> the sex signal holds inside each diagnosis group, so it is not just diagnosis,
+     although diagnosis alone would predict sex with AUC 0.72 in this cohort.
