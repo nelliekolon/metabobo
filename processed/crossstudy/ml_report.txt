@@ -1,0 +1,36 @@
+train: MSV000085256 (78 samples, 78 people)
+
+within-study CV on MSV000085256 (all 7602 features):
+  sex  AUC 0.72 [0.56-0.86]  (n=76: 57 M / 19 F)
+  age  MAE 3.3 y [2.7-4.1] vs 3.1 y predicting the training mean; r=0.02 (n=74, age 64-87)
+
+=== test: MSV000084556  (1309 shared features)
+  within-study CV on MSV000085256, shared features only (upper bound):
+    sex  AUC 0.76 [0.61-0.89]  (n=76: 57 M / 19 F)
+    age  MAE 3.3 y [2.6-4.0] vs 3.1 y predicting the training mean; r=-0.03 (n=74, age 64-87)
+  blood plasma  none         sex AUC 0.89 [nan-nan]  (n=20: 2 M / 18 F)
+                             age MAE 14.8 y [10.1-20.3] vs 14.2 y predicting the training mean; r=0.08 (n=20, age 29-74)
+  blood plasma  per-study z  sex AUC 0.78 [nan-nan]  (n=20: 2 M / 18 F)
+                             age MAE 14.2 y [9.3-20.1] vs 14.2 y predicting the training mean; r=0.07 (n=20, age 29-74)
+
+=== test: MSV000094097  (541 shared features)
+  within-study CV on MSV000085256, shared features only (upper bound):
+    sex  AUC 0.71 [0.56-0.85]  (n=76: 57 M / 19 F)
+    age  MAE 3.4 y [2.8-4.0] vs 3.1 y predicting the training mean; r=-0.05 (n=74, age 64-87)
+  blood plasma  none         sex AUC 0.68 [0.42-0.91]  (n=20: 8 M / 12 F)
+                             age MAE 7.9 y [5.1-10.8] vs 8.2 y predicting the training mean; r=0.06 (n=21, age 50-76)
+  blood plasma  per-study z  sex AUC 0.81 [0.60-0.98]  (n=20: 8 M / 12 F)
+                             age MAE 8.2 y [5.1-11.3] vs 8.2 y predicting the training mean; r=0.08 (n=21, age 50-76)
+  blood serum   none         sex AUC 0.68 [0.43-0.93]  (n=20: 8 M / 12 F)
+                             age MAE 7.9 y [5.1-10.7] vs 8.2 y predicting the training mean; r=-0.05 (n=21, age 50-76)
+  blood serum   per-study z  sex AUC 0.58 [0.31-0.86]  (n=20: 8 M / 12 F)
+                             age MAE 8.2 y [5.1-11.3] vs 8.2 y predicting the training mean; r=0.01 (n=21, age 50-76)
+
+=== test: MTBLS2469  (1058 shared features)
+  within-study CV on MSV000085256, shared features only (upper bound):
+    sex  AUC 0.68 [0.52-0.82]  (n=76: 57 M / 19 F)
+    age  MAE 3.3 y [2.6-3.9] vs 3.1 y predicting the training mean; r=-0.10 (n=74, age 64-87)
+  blood plasma  none         sex n=8 people, one sex only: not testable
+                             age MAE 12.3 y [7.3-19.1] vs 11.8 y predicting the training mean; r=0.23 (n=8, age 40-77)
+  blood plasma  per-study z  sex n=8 people, one sex only: not testable
+                             age MAE 11.7 y [7.3-18.0] vs 11.8 y predicting the training mean; r=0.31 (n=8, age 40-77)

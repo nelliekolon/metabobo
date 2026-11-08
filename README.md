@@ -36,6 +36,9 @@ pandas 3 breaks check_table.py.
    order-preserving (isotonic) RT map fitted on unambiguous high-intensity m/z anchors.
    RT tolerance from cross-validated anchor error. Known compounds are held out as a check.
    Output: feature_map.tsv (reference feature -> matched feature per study), match_report.txt.
+5. scripts/ml_crossstudy.py processed/crossstudy MSV000085256=<table dir> <study>=<table dir> ...
+   Sex (logistic) and age (ridge), trained on MSV000085256, tested on each other study on
+   shared features; no harmonization vs per-study z-scoring; per-person scoring; bootstrap CIs.
 
 ## Study notes
 - MSV000085256: one plasma sample per person (MCI vs Normal); scan range m/z 100+.
