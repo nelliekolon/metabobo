@@ -1,0 +1,137 @@
+ATTRIBUTE_DatasetAccession,source,files,instrument,fluid,year,has_disease,has_health,has_sex,has_age,has_group,disease,ms2
+ST002866,Workbench,3318,Q Exactive HF-X,blood plasma,2023,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MTBLS136,MetaboLights,3247,Q Exactive,blood serum,2018,0.0,0.0,1.0,0.0,0.8109023714197721,,NO_MS2
+MTBLS2308,MetaboLights,3244,Q Exactive,blood plasma,2026,0.0,0.0,0.9975339087546239,1.0,1.0,,NO_MS2
+ST002300,Workbench,2423,Q Exactive HF-X,blood serum,2022,0.0,0.0,1.0,0.0,0.0,,Unclassified
+ST002299,Workbench,2336,Q Exactive HF-X,blood serum,missing value,0.0,0.0,1.0,0.0,0.0,,Unclassified
+MTBLS89,MetaboLights,1454,Q Exactive,blood plasma,2018,0.0,0.0,0.0,0.0,1.0,,NO_MS2
+ST002336,Workbench,1303,Q Exactive HF-X,blood plasma,missing value,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MTBLS8764,MetaboLights,1224,Q Exactive,blood serum,2023,0.0,0.10457516339869281,1.0,0.9444444444444444,1.0,,NO_MS2
+MTBLS2245,MetaboLights,1000,Q Exactive,blood serum,2020,0.0,0.0,0.0,0.0,1.0,,NO_MS2
+MTBLS300,MetaboLights,966,Q Exactive,blood serum,2018,0.0,0.0,0.0,0.0,0.0,,NO_MS2
+ST003852,Workbench,794,Q Exactive HF-X,blood serum,2025,0.0,0.0,0.0,0.0,0.0,,Unclassified
+ST001430,Workbench,781,Q Exactive Plus,blood plasma,missing value,0.0,0.0,1.0,0.0,0.0,,NO_MS2
+ST002118,Workbench,668,Q Exactive HF-X,blood serum,2022,0.0,0.0,0.0,0.0,0.0,,Unclassified
+ST002351,Workbench,621,Q Exactive HF-X,blood serum,missing value,0.0,0.0,0.0,0.0,0.0,,Unclassified
+ST002049,Workbench,572,Q Exactive HF,blood serum,missing value,0.0,0.0,0.0,0.0,1.0,,Unclassified
+MTBLS12036,MetaboLights,510,Q Exactive HF,blood plasma,2025,0.0,0.0,1.0,1.0,0.0,,Unclassified
+MTBLS12015,MetaboLights,503,Q Exactive HF,blood plasma,2025,0.0,0.0,1.0,1.0,0.0,,Unclassified
+ST004504,Workbench,496,Orbitrap ID-X,blood plasma,2025,0.0,0.0,0.0,0.0,0.9516129032258065,,Unclassified
+ST005219,Workbench,478,Orbitrap Exploris 120,blood plasma,2026,0.8410041841004184,1.0,0.0,0.0,1.0,cardiovascular system disease,Unclassified
+MTBLS406,MetaboLights,468,Q Exactive,blood plasma,2019,0.7777777777777778,0.7777777777777778,0.9615384615384616,0.9615384615384616,0.9615384615384616,"acute lymphoblastic leukemia, acute myeloid leukem",NO_MS2
+ST003439,Workbench,455,Q Exactive HF,blood,2024,0.0,0.2571428571428571,0.0,0.0,1.0,,Unclassified
+ST002921,Workbench,418,Q Exactive Plus,blood serum,2023,0.3253588516746411,0.3492822966507177,0.0,0.0,1.0,bronchiectasis,Unclassified
+MTBLS1991,MetaboLights,392,Q Exactive,blood serum,2020,0.2602040816326531,0.9132653061224489,1.0,1.0,0.0,"anemia, diabetes mellitus, heart disease, hyperten",NO_MS2
+MSV000082630,GNPS,373,Q Exactive,blood plasma,2018,0.0,1.0,1.0,1.0,0.0,,DDA
+ST003806,Workbench,344,Q Exactive HF-X,blood plasma,2024,0.0,0.0,0.0,0.0,1.0,,Unclassified
+MTBLS14005,MetaboLights,340,Q Exactive,blood,2026,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MTBLS2291,MetaboLights,339,Q Exactive,blood plasma,2020,0.6637168141592921,0.6637168141592921,0.0,0.0,0.0,"non-severe COVID-19, severe COVID-19",Unclassified
+MTBLS948,MetaboLights,338,Q Exactive,blood plasma,2019,0.0,0.0,1.0,1.0,0.0,,NO_MS2
+ST002439,Workbench,322,Q Exactive HF-X,blood serum,2022,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MTBLS2542,MetaboLights,320,Q Exactive,blood serum,2021,0.540625,0.540625,1.0,1.0,0.0,COVID-19,Unclassified
+ST003138,Workbench,299,Q Exactive HF,blood plasma,2024,0.0,0.0,1.0,0.0,1.0,,Unclassified
+ST002940,Workbench,288,Q Exactive HF-X,blood plasma,2019,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MTBLS12684,MetaboLights,288,Q Exactive Focus,blood plasma,2025,0.3472222222222222,1.0,0.0,0.0,0.0,stomach carcinoma,Unclassified
+ST002044,Workbench,285,Orbitrap Fusion,blood serum,2022,0.0,0.0,0.6456140350877193,0.6456140350877193,0.0,,DDA
+ST002692,Workbench,279,Q Exactive HF-X,blood,2022,0.0,0.0,0.0,0.0,0.0,,Unclassified
+ST002443,Workbench,264,Q Exactive HF-X,blood plasma,2023,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MTBLS850,MetaboLights,250,Q Exactive Plus,blood plasma,2019,0.0,0.0,0.0,0.0,1.0,,NO_MS2
+MTBLS407,MetaboLights,250,Q Exactive,blood plasma,2019,0.0,0.0,0.0,0.0,0.0,,NO_MS2
+ST005250,Workbench,240,Orbitrap Exploris 120,blood plasma,2026,0.0,0.0,0.0,0.0,1.0,,Unclassified
+ST005101,Workbench,235,Orbitrap Exploris 480,blood plasma,2026,0.0,0.0,0.0,0.0,0.0,,Unclassified
+ST002291,Workbench,232,Q Exactive,blood plasma,2022,0.0,0.0,0.0,0.0,1.0,,NO_MS2
+MTBLS205,MetaboLights,224,Q Exactive,blood plasma,2018,0.41964285714285715,0.41964285714285715,1.0,0.9642857142857143,1.0,"acute lymphoblastic leukemia, acute myeloid leukem",NO_MS2
+ST001171,Workbench,224,Q Exactive HF,blood serum,2018,0.0,0.0,0.8928571428571429,0.8928571428571429,1.0,,Unclassified
+ST002050,Workbench,208,Q Exactive HF,blood plasma,missing value,0.0,0.0,0.0,0.0,1.0,,Unclassified
+MTBLS221,MetaboLights,192,Q Exactive,blood plasma,2018,0.0,0.0,1.0,1.0,0.0,,NO_MS2
+MTBLS204,MetaboLights,172,Q Exactive,blood plasma,2018,0.3953488372093023,0.3953488372093023,1.0,1.0,1.0,"acute lymphoblastic leukemia, acute myeloid leukem",NO_MS2
+MTBLS13382,MetaboLights,168,Q Exactive,blood,2025,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MTBLS11094,MetaboLights,166,Q Exactive HF-X,blood plasma,2024,0.6987951807228916,1.0,0.0,0.0,0.0,"Parkinson's disease, REM sleep behavior disorder",Unclassified
+ST002576,Workbench,165,Q Exactive HF-X,blood plasma,2024,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MTBLS2394,MetaboLights,162,Q Exactive,blood plasma,2021,0.0,0.0,0.0,0.0,0.6172839506172839,,NO_MS2
+MTBLS310,MetaboLights,160,Q Exactive,blood plasma,2018,0.0,0.0,0.0,0.0,0.0,,NO_MS2
+MTBLS1866,MetaboLights,155,Q Exactive Plus,blood plasma,2020,0.535483870967742,0.7032258064516129,0.0,0.0,1.0,COVID-19,DDA
+ST002533,Workbench,154,Q Exactive HF-X,blood serum,2018,0.3961038961038961,0.0,1.0,0.0,1.0,obesity,Unclassified
+ST002016,Workbench,140,Orbitrap ID-X,blood plasma,2021,0.0,0.37142857142857144,0.0,0.0,1.0,,Unclassified
+MTBLS12705,MetaboLights,140,Q Exactive,blood plasma,2025,0.0,0.0,0.9714285714285714,0.9714285714285714,0.9714285714285714,,Unclassified
+ST003124,Workbench,140,Q Exactive Plus,blood serum,2024,0.0,0.0,0.0,0.0,1.0,,NO_MS2
+MTBLS12814,MetaboLights,140,Q Exactive,blood serum,2025,0.0,0.0,0.0,0.0,1.0,,Unclassified
+MSV000100923,GNPS,138,Q Exactive Plus,blood plasma,2025,1.0,1.0,0.0,0.9130434782608695,0.0,cystic fibrosis,Unclassified
+MTBLS220,MetaboLights,136,Q Exactive,blood plasma,2018,0.0,0.0,1.0,1.0,0.0,,NO_MS2
+ST000988,Workbench,136,Q Exactive HF,blood plasma,2018,0.0,0.0,0.0,0.0,1.0,,Unclassified
+ST001231,Workbench,136,Q Exactive,blood plasma,2019,0.25735294117647056,0.5147058823529411,0.0,0.0,0.0,tuberculosis,Unclassified
+ST002238,Workbench,134,Q Exactive Plus,blood plasma,missing value,0.0,0.0,0.0,0.0,0.0,,NO_MS2
+MTBLS13787,MetaboLights,133,Q Exactive HF-X,blood serum,2026,0.0,0.17293233082706766,0.0,0.0,0.0,,Unclassified
+MTBLS476,MetaboLights,132,Q Exactive Focus,blood serum,2017,0.0,0.0,0.0,0.0,0.0,,NO_MS2
+ST002845,Workbench,130,Q Exactive,blood plasma,2023,0.0,0.0,1.0,1.0,1.0,,NO_MS2
+MTBLS11656,MetaboLights,129,Q Exactive Focus,blood plasma,2024,0.6511627906976745,1.0,0.0,0.0,1.0,"hand, foot and mouth disease",Unclassified
+MTBLS833,MetaboLights,126,Q Exactive,blood plasma,2019,0.0,0.0,0.0,0.0,0.0,,NO_MS2
+MTBLS2679,MetaboLights,123,Q Exactive Plus,blood plasma,2021,0.0,0.0,0.0,0.0,1.0,,Unclassified
+MTBLS12326,MetaboLights,114,Q Exactive HF-X,blood serum,2025,0.41228070175438597,1.0,0.0,0.0,0.0,gestational diabetes,Unclassified
+MTBLS4294,MetaboLights,113,Q Exactive Plus,blood plasma,2022,0.0,0.0,0.0,0.0,0.8761061946902655,,Unclassified
+ST003315,Workbench,111,Orbitrap Exploris 120,blood plasma,2024,0.0,0.0,1.0,0.0,1.0,,Unclassified
+ST004192,Workbench,110,Orbitrap Exploris 240,blood serum,2025,0.0,0.0,1.0,0.0,1.0,,Unclassified
+MTBLS980,MetaboLights,106,Q Exactive Plus,blood plasma,2025,0.0,0.0,1.0,0.0,1.0,,Unclassified
+MTBLS1465,MetaboLights,105,Q Exactive Focus,blood plasma,2020,0.0,0.0,0.0,0.0,1.0,,NO_MS2
+ST003110,Workbench,104,Q Exactive HF-X,blood plasma,2024,0.0,0.0,0.0,0.0,1.0,,Unclassified
+ST001736,Workbench,102,Q Exactive,blood plasma,2021,0.0,0.0,1.0,0.8725490196078431,1.0,,Unclassified
+MTBLS15433,MetaboLights,100,Q Exactive,blood plasma,2026,0.0,0.5,0.0,0.0,0.0,,Unclassified
+ST001243,Workbench,97,Q Exactive,blood plasma,2019,0.0,0.0,0.0,0.0,1.0,,Unclassified
+ST002243,Workbench,96,Q Exactive HF,blood plasma,2022,0.6145833333333334,0.6145833333333334,0.0,0.0,1.0,Friedreich ataxia,Unclassified
+MTBLS12058,MetaboLights,96,Exactive Plus,blood serum,2025,0.0,1.0,0.0,0.0,0.0,,Unclassified
+ST001240,Workbench,96,Q Exactive,blood plasma,2019,0.0,0.0,0.0,0.0,1.0,,Unclassified
+ST001241,Workbench,93,Q Exactive,blood plasma,2019,0.0,0.0,0.0,0.0,1.0,,Unclassified
+MTBLS7564,MetaboLights,90,Q Exactive HF,blood plasma,2023,0.0,0.0,0.0,0.0,1.0,,Unclassified
+MTBLS4187,MetaboLights,89,Q Exactive,blood serum,2022,0.3258426966292135,0.6629213483146067,0.0,0.0,0.0,skeletal tuberculosis,NO_MS2
+ST003616,Workbench,83,Orbitrap Exploris 240,blood serum,2024,0.0,0.0,1.0,0.0,1.0,,Unclassified
+MSV000094097,GNPS,83,Q Exactive,blood plasma,2023,1.0,1.0,0.9518072289156626,1.0,0.0,osteoarthritis,DDA
+MTBLS6039,MetaboLights,80,Q Exactive,blood serum,2022,0.5,0.75,0.0,0.0,0.0,"prostate cancer, prostatitis",Unclassified
+MTBLS11685,MetaboLights,79,Q Exactive HF-X,blood serum,2024,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MSV000085256,GNPS,78,Q Exactive,blood plasma,2019,1.0,1.0,0.9743589743589743,0.9487179487179487,0.0,Alzheimer's disease,Unclassified
+MTBLS518,MetaboLights,78,Q Exactive,blood plasma,2017,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MTBLS13630,MetaboLights,77,Q Exactive HF,blood plasma,2026,0.0,0.0,1.0,1.0,0.0,,Unclassified
+MTBLS14087,MetaboLights,76,Q Exactive Plus,blood serum,2026,0.5,1.0,0.0,0.0,0.0,type 2 diabetes mellitus,Unclassified
+ST002441,Workbench,72,Q Exactive HF-X,blood plasma,2023,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MTBLS2469,MetaboLights,66,Q Exactive,blood plasma,2021,1.0,1.0,1.0,1.0,0.0,COVID-19,Unclassified
+ST004099,Workbench,66,Orbitrap Fusion,blood,2025,0.0,0.0,0.0,0.0,0.0,,Unclassified
+ST002681,Workbench,65,Q Exactive,blood plasma,2023,0.47692307692307695,1.0,0.0,0.0,0.0,type 2 diabetes mellitus,NO_MS2
+MTBLS5828,MetaboLights,64,Q Exactive,blood,2022,0.484375,1.0,0.0,0.0,0.0,chronic inflammatory demyelinating polyradiculoneu,Unclassified
+MTBLS13106,MetaboLights,62,Q Exactive HF,blood serum,2025,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MTBLS7753,MetaboLights,62,Orbitrap Exploris 120,blood plasma,2023,0.5161290322580645,1.0,0.0,0.0,0.0,arteriovenous malformation,NO_MS2
+MSV000084556,GNPS,60,Q Exactive,blood plasma,2019,1.0,1.0,1.0,1.0,0.0,rheumatoid arthritis,DDA
+ST001493,Workbench,60,Q Exactive,blood plasma,2020,0.0,0.0,0.0,0.0,1.0,,DDA
+MTBLS4,MetaboLights,60,Exactive,blood plasma,2012,0.0,0.0,0.0,0.0,1.0,,Unclassified
+MTBLS10392,MetaboLights,60,Q Exactive HF,blood serum,2024,0.5,1.0,0.0,0.0,0.0,Guillain-Barre syndrome,Unclassified
+MTBLS5665,MetaboLights,52,Q Exactive,blood plasma,2022,0.5,1.0,0.0,0.0,0.0,liver cirrhosis,Unclassified
+MTBLS11406,MetaboLights,50,Q Exactive HF-X,blood plasma,2024,0.4,0.6,0.0,0.0,0.0,hepatitis B,Unclassified
+MTBLS12576,MetaboLights,50,Q Exactive,blood serum,2025,0.6,1.0,0.0,0.0,0.0,chronic kidney disease,Unclassified
+ST003012,Workbench,50,Q Exactive,blood plasma,2023,0.0,0.0,1.0,0.0,1.0,,Unclassified
+ST002428,Workbench,50,Q Exactive Focus,blood serum,2023,0.0,0.0,0.0,0.0,1.0,,NO_MS2
+ST003044,Workbench,49,Q Exactive,blood plasma,2024,0.0,0.0,1.0,0.0,1.0,,Unclassified
+ST005005,Workbench,48,Q Exactive,blood serum,2026,0.5833333333333334,1.0,0.0,0.0,0.0,schizophrenia,Unclassified
+MTBLS7315,MetaboLights,45,Orbitrap Exploris 120,blood serum,2023,0.0,0.3333333333333333,0.0,0.0,0.0,,NO_MS2
+MTBLS13111,MetaboLights,41,Q Exactive,blood serum,2025,0.0,0.0,0.0,0.0,0.0,,Unclassified
+ST002109,Workbench,41,Q Exactive,blood plasma,2022,0.0,0.0,0.0,0.0,1.0,,NO_MS2
+ST002110,Workbench,40,Q Exactive,blood plasma,2022,0.0,0.0,0.0,0.0,1.0,,NO_MS2
+ST004976,Workbench,40,Q Exactive,blood plasma,2026,0.0,0.5,1.0,1.0,1.0,,Unclassified
+MTBLS12328,MetaboLights,40,Q Exactive HF-X,blood serum,2025,0.0,0.425,0.0,0.0,0.0,,Unclassified
+MTBLS4231,MetaboLights,40,Orbitrap Fusion Lumos,blood plasma,2022,0.0,0.0,0.0,0.0,1.0,,Unclassified
+MTBLS2311,MetaboLights,38,Q Exactive,blood serum,2020,0.0,0.0,0.0,0.0,0.9736842105263158,,DDA
+ST002440,Workbench,35,Q Exactive HF-X,blood plasma,2023,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MSV000096943,GNPS,34,Q Exactive,blood plasma,2022,0.0,0.0,1.0,1.0,1.0,,Unclassified
+MTBLS15100,MetaboLights,33,Orbitrap Exploris 480,blood plasma,2026,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MTBLS10858,MetaboLights,30,Q Exactive Plus,blood serum,2024,0.0,0.0,0.0,1.0,1.0,,Unclassified
+MTBLS3628,MetaboLights,30,Q Exactive Plus,blood plasma,2021,0.0,0.0,0.0,0.0,0.0,,Unclassified
+MTBLS12514,MetaboLights,30,Q Exactive,blood serum,2025,0.6666666666666666,0.6666666666666666,0.0,0.0,1.0,gallbladder carcinoma,Unclassified
+MTBLS13300,MetaboLights,30,Orbitrap Exploris 120,blood serum,2025,0.0,0.0,0.0,0.0,1.0,,Unclassified
+MTBLS7878,MetaboLights,26,Q Exactive HF-X,blood serum,2023,0.0,1.0,0.0,0.0,0.0,,Unclassified
+ST005133,Workbench,25,Orbitrap Exploris 120,blood plasma,2026,0.76,0.76,1.0,1.0,0.0,metabolic dysfunction-associated steatohepatitis,Unclassified
+MTBLS12319,MetaboLights,24,Q Exactive HF-X,blood serum,2025,0.0,0.0,0.0,0.0,1.0,,Unclassified
+ST002427,Workbench,24,Q Exactive HF,blood plasma,2023,0.0,0.0,0.0,0.0,1.0,,Unclassified
+MTBLS7736,MetaboLights,21,Q Exactive Plus,blood plasma,2023,0.0,0.0,1.0,1.0,1.0,,Unclassified
+ST002420,Workbench,17,Q Exactive,blood serum,2023,0.0,0.0,0.0,0.0,0.0,,DDA
+MTBLS15852,MetaboLights,10,Orbitrap Exploris 120,blood plasma,2026,0.0,0.0,0.0,0.0,0.0,,Unclassified
+ST003811,Workbench,10,Orbitrap Exploris 120,blood plasma,2025,0.0,0.0,1.0,1.0,1.0,,Unclassified
+ST003285,Workbench,8,Q Exactive HF,blood plasma,2024,0.0,0.125,0.0,0.0,1.0,,Unclassified
+ST003967,Workbench,6,Orbitrap Exploris 120,blood,2025,0.0,0.0,0.0,0.0,1.0,,Unclassified
+MTBLS13589,MetaboLights,1,Q Exactive,blood serum,2025,0.0,0.0,0.0,0.0,0.0,,Unclassified

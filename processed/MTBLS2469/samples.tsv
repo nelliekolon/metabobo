@@ -1,0 +1,154 @@
+sample	subject	timepoint	matrix	role	group	health	disease	sex	age	injection	batch	include
+01102020_Covid_TP_Severe_9203_3_P489_P_2	9203	3	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	65.0	2	2020-10-01	0
+01102020_Covid_TP_Severe_9203_3_P489_P_3	9203	3	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	65.0	3	2020-10-01	1
+01102020_Covid_TP_Severe_9203_3_P489_P_4	9203	3	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	65.0	4	2020-10-01	0
+02122020_Covid_TP_NonSevere_to_Severe_9033_1_P327_P_2	9033	1	blood plasma	subject	NonSevere_to_Severe	unhealthy (NOS)	COVID-19	male	62.0	2	2020-12-02	0
+02122020_Covid_TP_NonSevere_to_Severe_9033_1_P327_P_3	9033	1	blood plasma	subject	NonSevere_to_Severe	unhealthy (NOS)	COVID-19	male	62.0	3	2020-12-02	1
+02122020_Covid_TP_NonSevere_to_Severe_9033_1_P327_P_4	9033	1	blood plasma	subject	NonSevere_to_Severe	unhealthy (NOS)	COVID-19	male	62.0	4	2020-12-02	0
+02122020_Covid_TP_NonSevere_to_Severe_9606_3_P700_P_2	9606	3	blood plasma	subject	NonSevere_to_Severe	unhealthy (NOS)	COVID-19	male	64.0	2	2020-12-02	0
+02122020_Covid_TP_NonSevere_to_Severe_9606_3_P700_P_3	9606	3	blood plasma	subject	NonSevere_to_Severe	unhealthy (NOS)	COVID-19	male	64.0	3	2020-12-02	1
+02122020_Covid_TP_NonSevere_to_Severe_9606_3_P700_P_4	9606	3	blood plasma	subject	NonSevere_to_Severe	unhealthy (NOS)	COVID-19	male	64.0	4	2020-12-02	0
+02122020_Covid_TP_NonSevere_to_Severe_9638_1_P565_P_2	9638	1	blood plasma	subject	NonSevere_to_Severe	unhealthy (NOS)	COVID-19	male	58.0	2	2020-12-02	0
+02122020_Covid_TP_NonSevere_to_Severe_9638_1_P565_P_3	9638	1	blood plasma	subject	NonSevere_to_Severe	unhealthy (NOS)	COVID-19	male	58.0	3	2020-12-02	1
+02122020_Covid_TP_NonSevere_to_Severe_9638_1_P565_P_4	9638	1	blood plasma	subject	NonSevere_to_Severe	unhealthy (NOS)	COVID-19	male	58.0	4	2020-12-02	0
+02122020_Covid_TP_NonSevere_to_Severe_9638_2_P647_P_2	9638	2	blood plasma	subject	NonSevere_to_Severe	unhealthy (NOS)	COVID-19	male	58.0	2	2020-12-02	0
+02122020_Covid_TP_NonSevere_to_Severe_9638_2_P647_P_3	9638	2	blood plasma	subject	NonSevere_to_Severe	unhealthy (NOS)	COVID-19	male	58.0	3	2020-12-02	1
+02122020_Covid_TP_NonSevere_to_Severe_9638_2_P647_P_4	9638	2	blood plasma	subject	NonSevere_to_Severe	unhealthy (NOS)	COVID-19	male	58.0	4	2020-12-02	0
+02122020_QCPool_Set1_P_2	pool		blood plasma	pool						2	2020-12-02	0
+02122020_QCPool_Set1_P_3	pool		blood plasma	pool						3	2020-12-02	1
+02122020_QCPool_Set1_P_4	pool		blood plasma	pool						4	2020-12-02	0
+02122020_QCPool_Set2_P_2	pool		blood plasma	pool						2	2020-12-02	0
+02122020_QCPool_Set2_P_3	pool		blood plasma	pool						3	2020-12-02	1
+02122020_QCPool_Set2_P_4	pool		blood plasma	pool						4	2020-12-02	0
+02122020_QCPool_Set3_P_2	pool		blood plasma	pool						2	2020-12-02	0
+02122020_QCPool_Set3_P_3	pool		blood plasma	pool						3	2020-12-02	1
+02122020_QCPool_Set3_P_4	pool		blood plasma	pool						4	2020-12-02	0
+02122020_QCPool_Set4_P_2	pool		blood plasma	pool						2	2020-12-02	0
+02122020_QCPool_Set4_P_3	pool		blood plasma	pool						3	2020-12-02	1
+02122020_QCPool_Set4_P_4	pool		blood plasma	pool						4	2020-12-02	0
+04102020_Covid_TP_Mild_9030_1_P325_P_2	9030	1	blood plasma	subject	Mild	unhealthy (NOS)	COVID-19	male	77.0	2	2020-10-04	0
+04102020_Covid_TP_Mild_9030_1_P325_P_3	9030	1	blood plasma	subject	Mild	unhealthy (NOS)	COVID-19	male	77.0	3	2020-10-04	1
+04102020_Covid_TP_Mild_9030_1_P325_P_4	9030	1	blood plasma	subject	Mild	unhealthy (NOS)	COVID-19	male	77.0	4	2020-10-04	0
+04102020_Covid_TP_Mild_9203_1_P353_P_2	9203	1	blood plasma	subject	Mild	unhealthy (NOS)	COVID-19	male	65.0	2	2020-10-04	0
+04102020_Covid_TP_Mild_9203_1_P353_P_3	9203	1	blood plasma	subject	Mild	unhealthy (NOS)	COVID-19	male	65.0	3	2020-10-04	1
+04102020_Covid_TP_Mild_9203_1_P353_P_4	9203	1	blood plasma	subject	Mild	unhealthy (NOS)	COVID-19	male	65.0	4	2020-10-04	0
+04102020_Covid_TP_Mild_9258_1_P386_P_2	9258	1	blood plasma	subject	Mild	unhealthy (NOS)	COVID-19	male	57.0	2	2020-10-04	0
+04102020_Covid_TP_Mild_9258_1_P386_P_3	9258	1	blood plasma	subject	Mild	unhealthy (NOS)	COVID-19	male	57.0	3	2020-10-04	1
+04102020_Covid_TP_Mild_9258_1_P386_P_4	9258	1	blood plasma	subject	Mild	unhealthy (NOS)	COVID-19	male	57.0	4	2020-10-04	0
+04102020_Covid_TP_Severe_9203_2_P474_P_2	9203	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	65.0	2	2020-10-04	0
+04102020_Covid_TP_Severe_9203_2_P474_P_3	9203	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	65.0	3	2020-10-04	1
+04102020_Covid_TP_Severe_9203_2_P474_P_4	9203	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	65.0	4	2020-10-04	0
+04102020_Covid_TP_Severe_9238_1_P380_P_2	9238	1	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	2	2020-10-04	0
+04102020_Covid_TP_Severe_9238_1_P380_P_3	9238	1	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	3	2020-10-04	1
+04102020_Covid_TP_Severe_9238_1_P380_P_4	9238	1	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	4	2020-10-04	0
+04102020_Covid_TP_Severe_9238_2_P477_P_2	9238	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	2	2020-10-04	0
+04102020_Covid_TP_Severe_9238_2_P477_P_3	9238	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	3	2020-10-04	1
+04102020_Covid_TP_Severe_9238_2_P477_P_4	9238	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	4	2020-10-04	0
+04102020_Covid_TP_Severe_9238_3_P503_P_2	9238	3	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	2	2020-10-04	0
+04102020_Covid_TP_Severe_9238_3_P503_P_3	9238	3	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	3	2020-10-04	1
+04102020_Covid_TP_Severe_9238_3_P503_P_4	9238	3	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	4	2020-10-04	0
+04102020_Covid_TP_Severe_9238_4_P533_P_2	9238	4	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	2	2020-10-04	0
+04102020_Covid_TP_Severe_9238_4_P533_P_3	9238	4	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	3	2020-10-04	1
+04102020_Covid_TP_Severe_9238_4_P533_P_4	9238	4	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	4	2020-10-04	0
+04102020_Covid_TP_Severe_9238_5_P559_P_2	9238	5	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	2	2020-10-04	0
+04102020_Covid_TP_Severe_9238_5_P559_P_3	9238	5	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	3	2020-10-04	1
+04102020_Covid_TP_Severe_9238_5_P559_P_4	9238	5	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	4	2020-10-04	0
+04102020_Covid_TP_Severe_9258_2_P496_P_2	9258	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	57.0	2	2020-10-04	0
+04102020_Covid_TP_Severe_9258_2_P496_P_3	9258	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	57.0	3	2020-10-04	1
+04102020_Covid_TP_Severe_9258_2_P496_P_4	9258	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	57.0	4	2020-10-04	0
+04102020_QCPool_Set1_P_2	pool		blood plasma	pool						2	2020-10-04	0
+04102020_QCPool_Set1_P_3	pool		blood plasma	pool						3	2020-10-04	1
+04102020_QCPool_Set1_P_4	pool		blood plasma	pool						4	2020-10-04	0
+04102020_QCPool_Set2_P_2	pool		blood plasma	pool						2	2020-10-04	0
+04102020_QCPool_Set2_P_3	pool		blood plasma	pool						3	2020-10-04	1
+04102020_QCPool_Set2_P_4	pool		blood plasma	pool						4	2020-10-04	0
+04102020_QCPool_Set3_P_2	pool		blood plasma	pool						2	2020-10-04	0
+04102020_QCPool_Set3_P_3	pool		blood plasma	pool						3	2020-10-04	1
+04102020_QCPool_Set3_P_4	pool		blood plasma	pool						4	2020-10-04	0
+04102020_QCPool_Set4_P_2	pool		blood plasma	pool						2	2020-10-04	0
+04102020_QCPool_Set4_P_3	pool		blood plasma	pool						3	2020-10-04	1
+04102020_QCPool_Set4_P_4	pool		blood plasma	pool						4	2020-10-04	0
+04102020_QCPool_Set5_P_2	pool		blood plasma	pool						2	2020-10-04	0
+04102020_QCPool_Set5_P_3	pool		blood plasma	pool						3	2020-10-04	1
+04102020_QCPool_Set5_P_4	pool		blood plasma	pool						4	2020-10-04	0
+04102020_QCPool_Set6_P_2	pool		blood plasma	pool						2	2020-10-04	0
+04102020_QCPool_Set6_P_3	pool		blood plasma	pool						3	2020-10-04	1
+04102020_QCPool_Set6_P_4	pool		blood plasma	pool						4	2020-10-04	0
+09122020_QCPool_Set1_P_2	pool		blood plasma	pool						2	2020-12-09	0
+09122020_QCPool_Set1_P_3	pool		blood plasma	pool						3	2020-12-09	1
+09122020_QCPool_Set1_P_4	pool		blood plasma	pool						4	2020-12-09	0
+09122020_QCPool_Set2_P_2	pool		blood plasma	pool						2	2020-12-09	0
+09122020_QCPool_Set2_P_3	pool		blood plasma	pool						3	2020-12-09	1
+09122020_QCPool_Set2_P_4	pool		blood plasma	pool						4	2020-12-09	0
+09122020_QCPool_Set3_P_2	pool		blood plasma	pool						2	2020-12-09	0
+09122020_QCPool_Set3_P_3	pool		blood plasma	pool						3	2020-12-09	1
+09122020_QCPool_Set3_P_4	pool		blood plasma	pool						4	2020-12-09	0
+09122020_QCPool_Set4_P_2	pool		blood plasma	pool						2	2020-12-09	0
+09122020_QCPool_Set4_P_3	pool		blood plasma	pool						3	2020-12-09	1
+09122020_QCPool_Set4_P_4	pool		blood plasma	pool						4	2020-12-09	0
+11102020_Covid_TP_Severe_9238_6_P605_P_2	9238	6	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	2	2020-10-11	0
+11102020_Covid_TP_Severe_9238_6_P605_P_3	9238	6	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	3	2020-10-11	1
+11102020_Covid_TP_Severe_9238_6_P605_P_4	9238	6	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	4	2020-10-11	0
+11102020_QCPool_Set1_P_2	pool		blood plasma	pool						2	2020-10-11	0
+11102020_QCPool_Set1_P_2_test	pool		blood plasma	pool						2	2020-10-11	0
+11102020_QCPool_Set1_P_3	pool		blood plasma	pool						3	2020-10-11	1
+11102020_QCPool_Set1_P_3_test	pool		blood plasma	pool						3	2020-10-11	0
+11102020_QCPool_Set1_P_4	pool		blood plasma	pool						4	2020-10-11	0
+11102020_QCPool_Set1_P_4_test	pool		blood plasma	pool						4	2020-10-11	0
+11102020_QCPool_Set2_P_2	pool		blood plasma	pool						2	2020-10-11	0
+11102020_QCPool_Set2_P_3	pool		blood plasma	pool						3	2020-10-11	1
+11102020_QCPool_Set2_P_4	pool		blood plasma	pool						4	2020-10-11	0
+11102020_QCPool_Set3_P_2	pool		blood plasma	pool						2	2020-10-11	0
+11102020_QCPool_Set3_P_3	pool		blood plasma	pool						3	2020-10-11	1
+11102020_QCPool_Set3_P_4	pool		blood plasma	pool						4	2020-10-11	0
+11102020_QCPool_Set4_P_2	pool		blood plasma	pool						2	2020-10-11	0
+11102020_QCPool_Set4_P_3	pool		blood plasma	pool						3	2020-10-11	1
+11102020_QCPool_Set4_P_4	pool		blood plasma	pool						4	2020-10-11	0
+17102020_Covid_TP_Severe_9033_3_P394_P_2	9033	3	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	62.0	2	2020-10-17	0
+17102020_Covid_TP_Severe_9033_3_P394_P_3	9033	3	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	62.0	3	2020-10-17	1
+17102020_Covid_TP_Severe_9033_3_P394_P_4	9033	3	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	62.0	4	2020-10-17	0
+17102020_QCPool_Set1_P_2	pool		blood plasma	pool						2	2020-10-17	0
+17102020_QCPool_Set1_P_3	pool		blood plasma	pool						3	2020-10-17	1
+17102020_QCPool_Set1_P_4	pool		blood plasma	pool						4	2020-10-17	0
+17102020_QCPool_Set2_P_2	pool		blood plasma	pool						2	2020-10-17	0
+17102020_QCPool_Set2_P_3	pool		blood plasma	pool						3	2020-10-17	1
+17102020_QCPool_Set2_P_4	pool		blood plasma	pool						4	2020-10-17	0
+17102020_QCPool_Set3_P_2	pool		blood plasma	pool						2	2020-10-17	0
+17102020_QCPool_Set3_P_3	pool		blood plasma	pool						3	2020-10-17	1
+17102020_QCPool_Set3_P_4	pool		blood plasma	pool						4	2020-10-17	0
+17102020_QCPool_Set4_P_2	pool		blood plasma	pool						2	2020-10-17	0
+17102020_QCPool_Set4_P_3	pool		blood plasma	pool						3	2020-10-17	1
+17102020_QCPool_Set4_P_4	pool		blood plasma	pool						4	2020-10-17	0
+17102020_QCPool_Set5_P_2	pool		blood plasma	pool						2	2020-10-17	0
+17102020_QCPool_Set5_P_3	pool		blood plasma	pool						3	2020-10-17	1
+17102020_QCPool_Set5_P_4	pool		blood plasma	pool						4	2020-10-17	0
+21102020_Covid_TP_Severe_9172_2_P639_P_2	9172	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	40.0	2	2020-10-21	0
+21102020_Covid_TP_Severe_9172_2_P639_P_3	9172	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	40.0	3	2020-10-21	1
+21102020_Covid_TP_Severe_9172_2_P639_P_4	9172	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	40.0	4	2020-10-21	0
+23092020_Covid_TP_Severe_9030_2_P411_P_2	9030	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	2	2020-09-23	0
+23092020_Covid_TP_Severe_9030_2_P411_P_3	9030	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	3	2020-09-23	1
+23092020_Covid_TP_Severe_9030_2_P411_P_4	9030	2	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	77.0	4	2020-09-23	0
+24102020_QCPool_Set1_P_2	pool		blood plasma	pool						2	2020-10-24	0
+24102020_QCPool_Set1_P_3	pool		blood plasma	pool						3	2020-10-24	1
+24102020_QCPool_Set1_P_4	pool		blood plasma	pool						4	2020-10-24	0
+24102020_QCPool_Set2_P_2	pool		blood plasma	pool						2	2020-10-24	0
+24102020_QCPool_Set2_P_3	pool		blood plasma	pool						3	2020-10-24	1
+24102020_QCPool_Set2_P_4	pool		blood plasma	pool						4	2020-10-24	0
+24102020_QCPool_Set3_P_2	pool		blood plasma	pool						2	2020-10-24	0
+24102020_QCPool_Set3_P_3	pool		blood plasma	pool						3	2020-10-24	1
+24102020_QCPool_Set3_P_4	pool		blood plasma	pool						4	2020-10-24	0
+26092020_Covid_TP_Severe_9172_1_P442_P_2	9172	1	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	40.0	2	2020-09-26	0
+26092020_Covid_TP_Severe_9172_1_P442_P_3	9172	1	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	40.0	3	2020-09-26	1
+26092020_Covid_TP_Severe_9172_1_P442_P_4	9172	1	blood plasma	subject	Severe	unhealthy (NOS)	COVID-19	male	40.0	4	2020-09-26	0
+26102020_CovidPos_9606_1_P672_P_2	9606	1	blood plasma	subject	CovidPos	unhealthy (NOS)	COVID-19	male	64.0	2	2020-10-26	0
+26102020_CovidPos_9606_1_P672_P_3	9606	1	blood plasma	subject	CovidPos	unhealthy (NOS)	COVID-19	male	64.0	3	2020-10-26	1
+26102020_CovidPos_9606_1_P672_P_4	9606	1	blood plasma	subject	CovidPos	unhealthy (NOS)	COVID-19	male	64.0	4	2020-10-26	0
+26102020_CovidPos_9606_2_P673_P_2	9606	2	blood plasma	subject	CovidPos	unhealthy (NOS)	COVID-19	male	64.0	2	2020-10-26	0
+26102020_CovidPos_9606_2_P673_P_3	9606	2	blood plasma	subject	CovidPos	unhealthy (NOS)	COVID-19	male	64.0	3	2020-10-26	1
+26102020_CovidPos_9606_2_P673_P_4	9606	2	blood plasma	subject	CovidPos	unhealthy (NOS)	COVID-19	male	64.0	4	2020-10-26	0
+26102020_QCPool_Set1_P_2	pool		blood plasma	pool						2	2020-10-26	0
+26102020_QCPool_Set1_P_3	pool		blood plasma	pool						3	2020-10-26	1
+26102020_QCPool_Set1_P_4	pool		blood plasma	pool						4	2020-10-26	0
+26102020_QCPool_Set2_P_2	pool		blood plasma	pool						2	2020-10-26	0
+26102020_QCPool_Set2_P_3	pool		blood plasma	pool						3	2020-10-26	1
+26102020_QCPool_Set2_P_4	pool		blood plasma	pool						4	2020-10-26	0

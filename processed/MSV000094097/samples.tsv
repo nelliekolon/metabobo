@@ -1,0 +1,114 @@
+sample	subject	timepoint	matrix	role	group	health	disease	sex	age	injection	batch	include
+OAD_001_Basal_P	OAD_001	Basal	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	64.0			1
+OAD_001_Basal_S	OAD_001	Basal	blood serum	subject	OAD	chronic illness	osteoarthritis	female	64.0			1
+OAD_001_Day15_P	OAD_001	Day15	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	64.0			1
+OAD_001_Day15_S	OAD_001	Day15	blood serum	subject	OAD	chronic illness	osteoarthritis	female	64.0			1
+OAD_003_Basal_P	OAD_003	Basal	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	56.0			1
+OAD_003_Basal_S	OAD_003	Basal	blood serum	subject	OAD	chronic illness	osteoarthritis	female	56.0			1
+OAD_003_Day15_P	OAD_003	Day15	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	56.0			1
+OAD_003_Day15_S	OAD_003	Day15	blood serum	subject	OAD	chronic illness	osteoarthritis	female	56.0			1
+OAD_004_Basal_P	OAD_004	Basal	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	69.0			1
+OAD_004_Basal_S	OAD_004	Basal	blood serum	subject	OAD	chronic illness	osteoarthritis	female	69.0			1
+OAD_004_Day15_P	OAD_004	Day15	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	69.0			1
+OAD_005_Basal_P	OAD_005	Basal	blood plasma	subject	OAD	chronic illness	osteoarthritis	male	74.0			1
+OAD_005_Basal_S	OAD_005	Basal	blood serum	subject	OAD	chronic illness	osteoarthritis	male	74.0			1
+OAD_005_Day15_P_2	OAD_005	Day15	blood plasma	subject	OAD	chronic illness	osteoarthritis	male	74.0			1
+OAD_005_Day15_S	OAD_005	Day15	blood serum	subject	OAD	chronic illness	osteoarthritis	male	74.0			1
+OAD_006_Basal_P	OAD_006	Basal	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	59.0			1
+OAD_006_Basal_S	OAD_006	Basal	blood serum	subject	OAD	chronic illness	osteoarthritis	female	59.0			1
+OAD_006_Day15_P	OAD_006	Day15	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	59.0			1
+OAD_006_Day15_S	OAD_006	Day15	blood serum	subject	OAD	chronic illness	osteoarthritis	female	59.0			1
+OAD_007_Basal_P	OAD_007	Basal	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	57.0			1
+OAD_007_Basal_S	OAD_007	Basal	blood serum	subject	OAD	chronic illness	osteoarthritis	female	57.0			1
+OAD_007_Day15_P	OAD_007	Day15	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	57.0			1
+OAD_007_Day15_S	OAD_007	Day15	blood serum	subject	OAD	chronic illness	osteoarthritis	female	57.0			1
+OAD_008_Basal_P	OAD_008	Basal	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	53.0			1
+OAD_008_Basal_S	OAD_008	Basal	blood serum	subject	OAD	chronic illness	osteoarthritis	female	53.0			1
+OAD_008_Day15_P	OAD_008	Day15	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	53.0			1
+OAD_008_Day15_S	OAD_008	Day15	blood serum	subject	OAD	chronic illness	osteoarthritis	female	53.0			1
+OAD_009_Basal_P	OAD_009	Basal	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	61.0			1
+OAD_009_Basal_S	OAD_009	Basal	blood serum	subject	OAD	chronic illness	osteoarthritis	female	61.0			1
+OAD_009_Day15_P	OAD_009	Day15	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	61.0			1
+OAD_009_Day15_S	OAD_009	Day15	blood serum	subject	OAD	chronic illness	osteoarthritis	female	61.0			1
+OAD_012_Basal_P	OAD_012	Basal	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	71.0			1
+OAD_012_Basal_S	OAD_012	Basal	blood serum	subject	OAD	chronic illness	osteoarthritis	female	71.0			1
+OAD_012_Day15_P	OAD_012	Day15	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	71.0			1
+OAD_012_Day15_S	OAD_012	Day15	blood serum	subject	OAD	chronic illness	osteoarthritis	female	71.0			1
+OAD_013_Basal_P	OAD_013	Basal	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	60.0			1
+OAD_013_Basal_S	OAD_013	Basal	blood serum	subject	OAD	chronic illness	osteoarthritis	female	60.0			1
+OAD_013_Day15_P	OAD_013	Day15	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	60.0			1
+OAD_013_Day15_S	OAD_013	Day15	blood serum	subject	OAD	chronic illness	osteoarthritis	female	60.0			1
+OAD_017_Basal_P	OAD_017	Basal	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	72.0			1
+OAD_017_Basal_S	OAD_017	Basal	blood serum	subject	OAD	chronic illness	osteoarthritis	female	72.0			1
+OAD_017_Day15_P	OAD_017	Day15	blood plasma	subject	OAD	chronic illness	osteoarthritis	female	72.0			1
+OAD_017_Day15_S	OAD_017	Day15	blood serum	subject	OAD	chronic illness	osteoarthritis	female	72.0			1
+Pool_blood_plasma_1	pool		blood plasma	pool								1
+Pool_blood_plasma_2	pool		blood plasma	pool								1
+Pool_blood_plasma_3	pool		blood plasma	pool								1
+Pool_blood_plasma_4	pool		blood plasma	pool								1
+Pool_blood_plasma_5	pool		blood plasma	pool								1
+Pool_blood_plasma_6	pool		blood plasma	pool								1
+Pool_blood_plasma_7	pool		blood plasma	pool								1
+Pool_blood_plasma_8	pool		blood plasma	pool								1
+Pool_blood_serum_1	pool		blood serum	pool								1
+Pool_blood_serum_2	pool		blood serum	pool								1
+Pool_blood_serum_3	pool		blood serum	pool								1
+Pool_blood_serum_4	pool		blood serum	pool								1
+Pool_blood_serum_5	pool		blood serum	pool								1
+Pool_blood_serum_6	pool		blood serum	pool								1
+Pool_blood_serum_7	pool		blood serum	pool								1
+Pool_blood_serum_8	pool		blood serum	pool								1
+Pool_blood_serum_9	pool		blood serum	pool								1
+VAOAD_001_Basal_P	VAOAD_001	Basal	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	72.0			1
+VAOAD_001_Basal_S	VAOAD_001	Basal	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	72.0			1
+VAOAD_001_Day15_P	VAOAD_001	Day15	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	72.0			1
+VAOAD_001_Day15_S	VAOAD_001	Day15	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	72.0			1
+VAOAD_002_Basal_P	VAOAD_002	Basal	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	female	72.0			1
+VAOAD_002_Basal_S	VAOAD_002	Basal	blood serum	subject	VAOAD	chronic illness	osteoarthritis	female	72.0			1
+VAOAD_002_Day15_P	VAOAD_002	Day15	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	female	72.0			1
+VAOAD_002_Day15_S	VAOAD_002	Day15	blood serum	subject	VAOAD	chronic illness	osteoarthritis	female	72.0			1
+VAOAD_004_Basal_P	VAOAD_004	Basal	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	female	55.0			1
+VAOAD_004_Basal_S	VAOAD_004	Basal	blood serum	subject	VAOAD	chronic illness	osteoarthritis	female	55.0			1
+VAOAD_004_Day15_P	VAOAD_004	Day15	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	female	55.0			1
+VAOAD_004_Day15_S	VAOAD_004	Day15	blood serum	subject	VAOAD	chronic illness	osteoarthritis	female	55.0			1
+VAOAD_008_Basal_P	VAOAD_008	Basal	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	73.0			1
+VAOAD_008_Basal_S	VAOAD_008	Basal	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	73.0			1
+VAOAD_008_Day15_P	VAOAD_008	Day15	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	73.0			1
+VAOAD_008_Day15_S	VAOAD_008	Day15	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	73.0			1
+VAOAD_009_Basal_P	VAOAD_009	Basal	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	71.0			1
+VAOAD_009_Basal_S	VAOAD_009	Basal	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	71.0			1
+VAOAD_009_Day15_P	VAOAD_009	Day15	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	71.0			1
+VAOAD_009_Day15_S	VAOAD_009	Day15	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	71.0			1
+VAOAD_010_Basal_P	VAOAD_010	Basal	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	50.0			1
+VAOAD_010_Basal_S	VAOAD_010	Basal	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	50.0			1
+VAOAD_010_Day15_P	VAOAD_010	Day15	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	50.0			1
+VAOAD_010_Day15_S	VAOAD_010	Day15	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	50.0			1
+VAOAD_011_Basal_P	VAOAD_011	Basal	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	51.0			1
+VAOAD_011_Basal_S	VAOAD_011	Basal	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	51.0			1
+VAOAD_011_Day15_P	VAOAD_011	Day15	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	51.0			1
+VAOAD_011_Day15_S	VAOAD_011	Day15	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	51.0			1
+VAOAD_012_Basal_P	VAOAD_012	Basal	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	68.0			1
+VAOAD_012_Basal_S	VAOAD_012	Basal	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	68.0			1
+VAOAD_012_Day15_P	VAOAD_012	Day15	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	68.0			1
+VAOAD_012_Day15_S	VAOAD_012	Day15	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	68.0			1
+VAOAD_014_Basal_P	VAOAD_014	Basal	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	76.0			1
+VAOAD_014_Basal_S	VAOAD_014	Basal	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	76.0			1
+VAOAD_014_Day15_P	VAOAD_014	Day15	blood plasma	subject	VAOAD	chronic illness	osteoarthritis	male	76.0			1
+VAOAD_014_Day15_S	VAOAD_014	Day15	blood serum	subject	VAOAD	chronic illness	osteoarthritis	male	76.0			1
+VAOAD_015_Basal_P	VAOAD_015	Basal	blood plasma	subject	VAOAD	chronic illness	osteoarthritis		65.0			1
+VAOAD_015_Basal_S	VAOAD_015	Basal	blood serum	subject	VAOAD	chronic illness	osteoarthritis		65.0			1
+VAOAD_015_Day15_P	VAOAD_015	Day15	blood plasma	subject	VAOAD	chronic illness	osteoarthritis		65.0			1
+VAOAD_015_Day15_S	VAOAD_015	Day15	blood serum	subject	VAOAD	chronic illness	osteoarthritis		65.0			1
+pool_saliva_1_prot2	pool		saliva	pool								0
+pool_saliva_2_prot2	pool		saliva	pool								0
+pool_saliva_3_prot2	pool		saliva	pool								0
+pool_saliva_4_prot2	pool		saliva	pool								0
+pool_saliva_5_prot2	pool		saliva	pool								0
+pool_saliva_6_prot2	pool		saliva	pool								0
+pool_saliva_7_prot2	pool		saliva	pool								0
+pool_stool_1	pool		stool	pool								0
+pool_stool_2	pool		stool	pool								0
+pool_stool_3	pool		stool	pool								0
+pool_stool_4	pool		stool	pool								0
+pool_stool_5	pool		stool	pool								0
+pool_stool_6	pool		stool	pool								0

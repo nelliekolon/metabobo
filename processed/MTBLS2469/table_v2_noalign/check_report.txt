@@ -1,0 +1,36 @@
+features kept (detected in >=80% of samples): 6232 of 314747
+per-sample features detected: min 33140, median 49177, max 59479
+pooled QC (28 runs): median feature CV 64%, 3% of features under 30%
+
+sample-sample correlation: same person 0.19 (n=26), different people 0.04 (n=205)
+nearest neighbour is the same person for 41% of 22 samples (chance ~11%)
+PCA variance explained PC1-5: [22.  13.9  6.1  4.3  3.7]
+mean PC1/PC2 by timepoint:
+     PC1   PC2
+    3.4  11.4
+1   0.7 -11.0
+2  -4.1 -19.2
+3   0.1 -19.6
+4 -24.8   1.3
+5 -22.3 -21.5
+6 -26.0   0.1
+mean PC1/PC2 by role:
+          PC1   PC2
+pool     3.4  11.4
+subject -4.4 -14.6
+
+known compounds (feature detected in n samples, RT s):
+  creatinine           m/z 114.0662: n= 50, RT 46
+  proline              m/z 116.0706: n= 50, RT 41
+  betaine              m/z 118.0863: n= 50, RT 50
+  leucine/isoleucine   m/z 132.1019: n= 47, RT 20
+  carnitine            m/z 162.1125: n= 50, RT 47
+  phenylalanine        m/z 166.0863: n= 49, RT 588
+  hippuric acid        m/z 180.0655: n= 50, RT 402
+  tyrosine             m/z 182.0812: n= 50, RT 55
+  caffeine             m/z 195.0877: n= 49, RT 427
+  tryptophan           m/z 205.0972: n= 42, RT 357
+  cortisol             m/z 363.2166: n= 50, RT 579
+  LPC 16:0             m/z 496.3398: n= 50, RT 1118
+  LPC 18:2             m/z 520.3398: n= 50, RT 1106
+  PC 34:2              m/z 758.5694: not found

@@ -1,0 +1,30 @@
+# Raw and converted data: tens of GB, re-downloadable with ftp_download.py
+pilot_data/
+
+# Large pipeline outputs (regenerate with scripts/); small reports stay tracked
+*.featureXML
+*.consensusXML
+*.mzML
+*.raw
+*.part
+feature_table*.tsv
+feature_info.tsv
+batch_offsets_log2.tsv
+processed/MSV000084556/table_v1/
+processed/MSV000084556/features/
+
+# Third-party binaries (ThermoRawFileParser; see README for the download link)
+tools/
+
+# Environment and OS files
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Scratch test lists
+test_usis.tsv
+test2.tsv
+
+# Eval answer key: kept local until the LLM eval has been run
+eval_private/

@@ -1,0 +1,137 @@
+accession	source	year	fluid	instrument	files	repo_paper	repo_method_fields	n_analyses	epmc_hits	epmc_open_access	epmc_ids
+ST002866	Workbench	2023	blood plasma	Q Exactive HF-X	3318		6	2	0	0	
+MTBLS136	MetaboLights	2018	blood serum	Q Exactive	3247	10.1007/s11306-018-1393-1	6		9	9	10.1007/s11306-026-02529-y;10.3390/metabo15030174;10.1093/nar/gkad1045
+MTBLS2308	MetaboLights	2026	blood plasma	Q Exactive	3244	10.1038/s41564-024-01728-4	6		1	1	10.1038/s41564-024-01728-4
+ST002300	Workbench	2022	blood serum	Q Exactive HF-X	2423		6	1	0	0	
+ST002299	Workbench	missing value	blood serum	Q Exactive HF-X	2336	http://dx.doi.org/10.21228/M8B40C	6	1	0	0	
+MTBLS89	MetaboLights	2018	blood plasma	Q Exactive	1454	10.1016/j.celrep.2024.114416	6		3	3	10.1093/bioadv/vbag252;10.1016/j.celrep.2024.114416;10.3389/fnut.2022.933526
+ST002336	Workbench	missing value	blood plasma	Q Exactive HF-X	1303	http://dx.doi.org/10.21228/M8TT5H	6	1	1	1	10.1038/s42255-025-01239-4
+MTBLS8764	MetaboLights	2023	blood serum	Q Exactive	1224	10.1016/j.jhepr.2024.101119	6		3	2	10.1016/j.compbiolchem.2025.108863;10.1016/j.jhepr.2024.101119;10.1016/j.jare.2024.09.007
+MTBLS2245	MetaboLights	2020	blood serum	Q Exactive	1000	10.1016/j.envint.2022.107320	6		0	0	
+MTBLS300	MetaboLights	2018	blood serum	Q Exactive	966	10.1053/j.gastro.2023.05.032	6		0	0	
+ST003852	Workbench	2025	blood serum	Q Exactive HF-X	794		6	1	0	0	
+ST001430	Workbench	missing value	blood plasma	Q Exactive Plus	781		5	2	2	2	10.1021/acs.analchem.2c00563;10.1016/j.envint.2022.107240
+ST002118	Workbench	2022	blood serum	Q Exactive HF-X	668		6	1	0	0	
+ST002351	Workbench	missing value	blood serum	Q Exactive HF-X	621	http://dx.doi.org/10.21228/M8HD93	6	1	1	1	10.1038/s44360-026-00150-w
+ST002049	Workbench	missing value	blood serum	Q Exactive HF	572	http://dx.doi.org/10.21228/M86697	6	1	0	0	
+MTBLS12036	MetaboLights	2025	blood plasma	Q Exactive HF	510	Sarcosine decreases in sarcopenia and en	6		0	0	
+MTBLS12015	MetaboLights	2025	blood plasma	Q Exactive HF	503	Sarcosine decreases in sarcopenia and en	6		0	0	
+ST004504	Workbench	2025	blood plasma	Orbitrap ID-X	496		6	1	0	0	
+ST005219	Workbench	2026	blood plasma	Orbitrap Exploris 120	478		6	2	0	0	
+MTBLS406	MetaboLights	2019	blood plasma	Q Exactive	468	10.1182/blood.2022016926	6		1	1	10.1038/s41598-018-26139-4
+ST003439	Workbench	2024	blood	Q Exactive HF	455	http://dx.doi.org/10.21228/M8B52G	6	2	0	0	
+ST002921	Workbench	2023	blood serum	Q Exactive Plus	418		6	1	0	0	
+MTBLS1991	MetaboLights	2020	blood serum	Q Exactive	392	10.1111/acel.14104	6		1	1	10.1111/acel.14104
+MSV000082630	GNPS	2018	blood plasma	Q Exactive	373		1		2	2	10.1038/s41467-021-23953-9;10.1038/s41587-021-01045-9
+ST003806	Workbench	2024	blood plasma	Q Exactive HF-X	344		6	1	1	1	10.3390/nu17081384
+MTBLS14005	MetaboLights	2026	blood	Q Exactive	340	Metabolic Biomarkers of Treatment-Resist	6		0	0	
+MTBLS2291	MetaboLights	2020	blood plasma	Q Exactive	339	10.36233/0372-9311-161	6		1	1	10.1007/s11306-026-02507-4
+MTBLS948	MetaboLights	2019	blood plasma	Q Exactive	338	10.1097/01.EE9.0000608184.18665.30	6		1	1	10.1038/s42255-026-01550-8
+ST002439	Workbench	2022	blood serum	Q Exactive HF-X	322		6	1	0	0	
+MTBLS2542	MetaboLights	2021	blood serum	Q Exactive	320	10.1038/s41467-021-24482-1	6		3	3	10.1007/s11306-026-02507-4;10.1038/s41467-024-48009-6;10.1038/s41467-021-24482-1
+ST003138	Workbench	2024	blood plasma	Q Exactive HF	299		6	1	1	1	10.3390/antiox14050536
+ST002940	Workbench	2019	blood plasma	Q Exactive HF-X	288		6	1	0	0	
+MTBLS12684	MetaboLights	2025	blood plasma	Q Exactive Focus	288	10.1038/s44321-025-00325-0	6		1	1	10.1038/s44321-025-00325-0
+ST002044	Workbench	2022	blood serum	Orbitrap Fusion	285		5	4	3	3	10.1186/s13321-024-00804-5;10.1021/acs.analchem.2c00563;10.1021/acs.analchem.3c00376
+ST002692	Workbench	2022	blood	Q Exactive HF-X	279	http://dx.doi.org/10.21228/M87727	6	1	5	5	10.1038/s43856-026-01732-1;10.1038/s43856-026-01534-5;10.1021/acs.est.5c02071
+ST002443	Workbench	2023	blood plasma	Q Exactive HF-X	264		6	1	0	0	
+MTBLS850	MetaboLights	2019	blood plasma	Q Exactive Plus	250	10.1038/s41467-023-44090-5	6		1	1	10.1038/s41467-023-44090-5
+MTBLS407	MetaboLights	2019	blood plasma	Q Exactive	250	10.1038/s41467-022-33050-0	6		2	2	10.1038/s41467-022-33050-0;10.1101/2022.05.25.22275561
+ST005250	Workbench	2026	blood plasma	Orbitrap Exploris 120	240		6	3	0	0	
+ST005101	Workbench	2026	blood plasma	Orbitrap Exploris 480	235		6	2	1	1	10.1007/s11306-026-02520-7
+ST002291	Workbench	2022	blood plasma	Q Exactive	232		5	1	1	1	10.1128/spectrum.02194-22
+MTBLS205	MetaboLights	2018	blood plasma	Q Exactive	224	10.1038/s41467-019-13498-3	6		3	3	10.1093/nar/gkad1045;10.1016/j.envint.2022.107240;10.1038/s41467-019-13498-3
+ST001171	Workbench	2018	blood serum	Q Exactive HF	224		6	1	3	3	10.5702/massspectrometry.a0155;10.5702/massspectrometry.a0138;10.1016/j.envint.2022.107240
+ST002050	Workbench	missing value	blood plasma	Q Exactive HF	208	http://dx.doi.org/10.21228/M86697	6	1	0	0	
+MTBLS221	MetaboLights	2018	blood plasma	Q Exactive	192	10.1126/scitranslmed.abg3083	6		0	0	
+MTBLS204	MetaboLights	2018	blood plasma	Q Exactive	172	10.1038/s41467-019-13498-3	6		3	3	10.1093/nar/gkad1045;10.1016/j.envint.2022.107240;10.1038/s41467-019-13498-3
+MTBLS13382	MetaboLights	2025	blood	Q Exactive	168	Expanding the clinical use of DBS: throu	6		0	0	
+MTBLS11094	MetaboLights	2024	blood plasma	Q Exactive HF-X	166	Alterations of fecal microbiota and plas	6		3	3	10.1128/msphere.00590-24;10.3389/fnins.2025.1667331;10.3389/fneur.2026.1819000
+ST002576	Workbench	2024	blood plasma	Q Exactive HF-X	165		6	4	0	0	
+MTBLS2394	MetaboLights	2021	blood plasma	Q Exactive	162	10.1007/s11306-021-01814-2	6		3	3	10.1172/jci.insight.202662;10.1007/s11306-021-01814-2;10.1126/scitranslmed.abn2110
+MTBLS310	MetaboLights	2018	blood plasma	Q Exactive	160	10.1093/ajcn/nqac286	6		1	1	10.1093/ajcn/nqac286
+MTBLS1866	MetaboLights	2020	blood plasma	Q Exactive Plus	155	10.3390/ijms21228623	6		3	3	10.1007/s11306-026-02507-4;10.1038/s41467-023-43909-5;10.3390/ijms21228623
+ST002533	Workbench	2018	blood serum	Q Exactive HF-X	154		6	1	0	0	
+ST002016	Workbench	2021	blood plasma	Orbitrap ID-X	140		6	2	0	0	
+MTBLS12705	MetaboLights	2025	blood plasma	Q Exactive	140	10.1371/journal.pmed.1004560	6		0	0	
+ST003124	Workbench	2024	blood serum	Q Exactive Plus	140		6	4	1	1	10.1038/s41467-024-47911-3
+MTBLS12814	MetaboLights	2025	blood serum	Q Exactive	140	10.1186/s40798-026-00989-z	6		1	1	10.1186/s40798-026-00989-z
+MSV000100923	GNPS	2025	blood plasma	Q Exactive Plus	138		1		0	0	
+MTBLS220	MetaboLights	2018	blood plasma	Q Exactive	136	10.1126/scitranslmed.abg3083	6		0	0	
+ST000988	Workbench	2018	blood plasma	Q Exactive HF	136	DOI: 10.1021/acs.analchem.7b03404;DOI: 10.1021/acs.analchem.7b03404	6	1	0	0	
+ST001231	Workbench	2019	blood plasma	Q Exactive	136		5	2	3	3	10.1371/journal.pone.0262545;10.1016/j.envint.2022.107240;10.1093/bioinformatics/btae623
+ST002238	Workbench	missing value	blood plasma	Q Exactive Plus	134	http://dx.doi.org/10.21228/M84Q4W	6	4	0	0	
+MTBLS13787	MetaboLights	2026	blood serum	Q Exactive HF-X	133	Microbiome and metabolome patterns cente	6		1	1	10.1186/s12866-026-05171-9
+MTBLS476	MetaboLights	2017	blood serum	Q Exactive Focus	132	10.3390/metabo8020039	6		0	0	
+ST002845	Workbench	2023	blood plasma	Q Exactive	130		6	1	1	1	10.1128/msystems.00726-23
+MTBLS11656	MetaboLights	2024	blood plasma	Q Exactive Focus	129	Metabolomic Analysis Reveals an Importan	6		1	1	10.1128/aac.01272-24
+MTBLS833	MetaboLights	2019	blood plasma	Q Exactive	126	10.1038/s41591-022-02046-0	6		2	2	10.1038/s41467-024-45779-x;10.1038/s41591-022-02046-0
+MTBLS2679	MetaboLights	2021	blood plasma	Q Exactive Plus	123	10.1007/s11306-021-01832-0	6		0	0	
+MTBLS12326	MetaboLights	2025	blood serum	Q Exactive HF-X	114	Gut Microbiome and Serum Metabolic Alter	6		0	0	
+MTBLS4294	MetaboLights	2022	blood plasma	Q Exactive Plus	113	10.3389/fonc.2022.845936	6		1	1	10.3389/fonc.2022.845936
+ST003315	Workbench	2024	blood plasma	Orbitrap Exploris 120	111		6	2	1	1	10.1038/s41523-024-00697-5
+ST004192	Workbench	2025	blood serum	Orbitrap Exploris 240	110		6	1	0	0	
+MTBLS980	MetaboLights	2025	blood plasma	Q Exactive Plus	106	Gut-derived metabolites drive Th17 cell 	6		0	0	
+MTBLS1465	MetaboLights	2020	blood plasma	Q Exactive Focus	105	10.1039/D0AN01319F	6		1	1	10.1039/d0an01319f
+ST003110	Workbench	2024	blood plasma	Q Exactive HF-X	104	http://dx.doi.org/10.21228/M80B0B	6	1	1	1	10.1038/s41598-024-64561-z
+ST001736	Workbench	2021	blood plasma	Q Exactive	102		5	2	0	0	
+MTBLS15433	MetaboLights	2026	blood plasma	Q Exactive	100	Microbiota-regulated TCDCA associates wi	6		1	1	10.1016/j.xcrm.2026.103098
+ST001243	Workbench	2019	blood plasma	Q Exactive	97		6	2	3	3	10.1038/s41467-019-12739-9;10.3390/metabo10040171;10.1021/acs.jproteome.0c00696
+ST002243	Workbench	2022	blood plasma	Q Exactive HF	96		6	2	0	0	
+MTBLS12058	MetaboLights	2025	blood serum	Exactive Plus	96	Untargeted Lipidomics Profiling Provides	6		0	0	
+ST001240	Workbench	2019	blood plasma	Q Exactive	96		6	2	1	1	10.1038/s41467-019-12739-9
+ST001241	Workbench	2019	blood plasma	Q Exactive	93		6	2	1	1	10.1038/s41467-019-12739-9
+MTBLS7564	MetaboLights	2023	blood plasma	Q Exactive HF	90	10.1021/acs.analchem.3c01393	6		1	1	10.1021/acs.analchem.3c01393
+MTBLS4187	MetaboLights	2022	blood serum	Q Exactive	89	Novel Potential Diagnostic Serum Biomark	6		1	1	10.3389/fcimb.2022.827528
+ST003616	Workbench	2024	blood serum	Orbitrap Exploris 240	83		6	2	1	1	10.1021/acs.analchem.6c01204
+MSV000094097	GNPS	2023	blood plasma	Q Exactive	83		1		2	2	10.1128/msystems.00839-26;10.3390/nu17172729
+MTBLS6039	MetaboLights	2022	blood serum	Q Exactive	80	10.3389/fimmu.2022.998447	6		2	2	10.3390/metabo16040237;10.3389/fimmu.2022.998447
+MTBLS11685	MetaboLights	2024	blood serum	Q Exactive HF-X	79	Prevotella copri mediated caffeine metab	6		1	1	10.1128/spectrum.01575-24
+MSV000085256	GNPS	2019	blood plasma	Q Exactive	78		1		1	1	10.1038/s42255-021-00429-0
+MTBLS518	MetaboLights	2017	blood plasma	Q Exactive	78		6		2	2	10.1093/nar/gkaa258;10.1172/jci.insight.125156
+MTBLS13630	MetaboLights	2026	blood plasma	Q Exactive HF	77	Exploratory metabolomic profiling in mig	6		1	1	10.1016/j.isci.2026.115587
+MTBLS14087	MetaboLights	2026	blood serum	Q Exactive Plus	76	Integrated Multi-omics Analysis Identifi	6		0	0	
+ST002441	Workbench	2023	blood plasma	Q Exactive HF-X	72		6	1	0	0	
+MTBLS2469	MetaboLights	2021	blood plasma	Q Exactive	66	10.1021/acs.jproteome.1c00215	6		2	1	10.1021/acs.jproteome.1c00215;10.1016/j.dib.2022.108765
+ST004099	Workbench	2025	blood	Orbitrap Fusion	66		6	4	1	1	10.1016/j.isci.2026.117477
+ST002681	Workbench	2023	blood plasma	Q Exactive	65		6	2	2	2	10.3389/fendo.2024.1444282;10.3390/nu16101537
+MTBLS5828	MetaboLights	2022	blood	Q Exactive	64	10.1186/s13578-023-00956-1	6		2	2	10.1038/s41467-026-68464-7;10.1186/s13578-023-00956-1
+MTBLS13106	MetaboLights	2025	blood serum	Q Exactive HF	62	OA-HOXB9-ODC1-Polyamine Axis Mediates Me	6		1	1	10.1038/s41467-025-67083-y
+MTBLS7753	MetaboLights	2023	blood plasma	Orbitrap Exploris 120	62	10.3389/fphys.2023.1207390	6		1	1	10.3389/fphys.2023.1207390
+MSV000084556	GNPS	2019	blood plasma	Q Exactive	60		1		2	2	10.1021/acs.analchem.6c01418;10.1038/s41591-023-02217-7
+ST001493	Workbench	2020	blood plasma	Q Exactive	60	Under review;Under review	5	1	0	0	
+MTBLS4	MetaboLights	2012	blood plasma	Exactive	60	10.1002/rcm.4015	6		2	2	10.1186/s13321-024-00905-1;10.1007/s11306-015-0879-3
+MTBLS10392	MetaboLights	2024	blood serum	Q Exactive HF	60	Multi-omics analyses of serum metabolome	6		1	1	10.3389/fimmu.2026.1849216
+MTBLS5665	MetaboLights	2022	blood plasma	Q Exactive	52	10.2174/1386207326666230717094936	6		0	0	
+MTBLS11406	MetaboLights	2024	blood plasma	Q Exactive HF-X	50	Multi-omic Molecular Characterization an	6		2	2	10.3389/fendo.2024.1409079;10.3389/fneur.2026.1819000
+MTBLS12576	MetaboLights	2025	blood serum	Q Exactive	50	Altered fecal microbial and metabolic pr	6		1	1	10.1128/spectrum.03166-24
+ST003012	Workbench	2023	blood plasma	Q Exactive	50		6	2	0	0	
+ST002428	Workbench	2023	blood serum	Q Exactive Focus	50		5	2	1	1	10.1128/spectrum.03482-25
+ST003044	Workbench	2024	blood plasma	Q Exactive	49		6	2	0	0	
+ST005005	Workbench	2026	blood serum	Q Exactive	48		6	2	1	1	10.1016/j.isci.2026.117123
+MTBLS7315	MetaboLights	2023	blood serum	Orbitrap Exploris 120	45	10.3389/fimmu.2023.1181697	6		0	0	
+MTBLS13111	MetaboLights	2025	blood serum	Q Exactive	41	Mutations-Upstream-of-Metabolomic-Signat	6		1	1	10.1038/s41467-026-73871-x
+ST002109	Workbench	2022	blood plasma	Q Exactive	41		5	2	0	0	
+ST002110	Workbench	2022	blood plasma	Q Exactive	40		5	2	1	1	10.1038/s41467-024-48066-x
+ST004976	Workbench	2026	blood plasma	Q Exactive	40		6	2	0	0	
+MTBLS12328	MetaboLights	2025	blood serum	Q Exactive HF-X	40	10.3389/fmicb.2025.1541683	6		1	1	10.3389/fmicb.2025.1541683
+MTBLS4231	MetaboLights	2022	blood plasma	Orbitrap Fusion Lumos	40	10.1016/j.cmet.2022.09.020	6		0	0	
+MTBLS2311	MetaboLights	2020	blood serum	Q Exactive	38	10.1021/acs.jproteome.1c00554	6		1	0	10.1021/acs.jproteome.1c00554
+ST002440	Workbench	2023	blood plasma	Q Exactive HF-X	35		6	1	0	0	
+MSV000096943	GNPS	2022	blood plasma	Q Exactive	34		1		1	1	10.1016/j.chom.2025.11.002
+MTBLS15100	MetaboLights	2026	blood plasma	Orbitrap Exploris 480	33	10.26434/chemrxiv.15000095/v2	6		1	1	10.1021/acs.analchem.6c03820
+MTBLS10858	MetaboLights	2024	blood serum	Q Exactive Plus	30	Exploring Lipidomic Profiles and Their C	6		1	1	10.3892/ol.2024.14781
+MTBLS3628	MetaboLights	2021	blood plasma	Q Exactive Plus	30	Liquid biopsy metabolites accurately cla	6		1	1	10.1172/jci165028
+MTBLS12514	MetaboLights	2025	blood serum	Q Exactive	30	10.1021/acs.jproteome.5c00403	6		0	0	
+MTBLS13300	MetaboLights	2025	blood serum	Orbitrap Exploris 120	30	Bifidobacterium animalis subsp. lactis V	6		1	1	10.1126/sciadv.aeg8202
+MTBLS7878	MetaboLights	2023	blood serum	Q Exactive HF-X	26	10.3389/fimmu.2023.1151728	6		2	2	10.3389/fimmu.2023.1151728;10.1038/s41586-025-09969-x
+ST005133	Workbench	2026	blood plasma	Orbitrap Exploris 120	25		6	2	1	1	10.1016/j.cmet.2026.08.018
+MTBLS12319	MetaboLights	2025	blood serum	Q Exactive HF-X	24	Serum untargeted metabolomics reveals di	6		0	0	
+ST002427	Workbench	2023	blood plasma	Q Exactive HF	24		6	1	1	1	10.1093/bioadv/vbad044
+MTBLS7736	MetaboLights	2023	blood plasma	Q Exactive Plus	21	10.3389/fcimb.2024.1283737	6		1	1	10.3389/fcimb.2024.1283737
+ST002420	Workbench	2023	blood serum	Q Exactive	17		6	1	1	1	10.1021/acs.jproteome.3c00006
+MTBLS15852	MetaboLights	2026	blood plasma	Orbitrap Exploris 120	10	Transcriptomic and Metabolomic Study of 	6		0	0	
+ST003811	Workbench	2025	blood plasma	Orbitrap Exploris 120	10		6	2	0	0	
+ST003285	Workbench	2024	blood plasma	Q Exactive HF	8		6	2	0	0	
+ST003967	Workbench	2025	blood	Orbitrap Exploris 120	6		6	2	1	1	10.1210/endocr/bqaf168
+MTBLS13589	MetaboLights	2025	blood serum	Q Exactive	1	10.1038/s41467-026-69240-3	6		1	1	10.1038/s41467-026-69240-3

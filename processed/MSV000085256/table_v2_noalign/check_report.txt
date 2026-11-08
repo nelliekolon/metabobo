@@ -1,0 +1,21 @@
+features kept (detected in >=80% of samples): 7602 of 109163
+per-sample features detected: min 14931, median 21448, max 22861
+
+within-person check skipped: no person has more than one sample
+PCA variance explained PC1-5: [15.9  9.   6.8  5.5  3.2]
+
+known compounds (feature detected in n samples, RT s):
+  creatinine           m/z 114.0662: n= 73, RT 21
+  proline              m/z 116.0706: n= 71, RT 20
+  betaine              m/z 118.0863: n= 73, RT 21
+  leucine/isoleucine   m/z 132.1019: n= 75, RT 26
+  carnitine            m/z 162.1125: n=  6, RT 18
+  phenylalanine        m/z 166.0863: n= 75, RT 32
+  hippuric acid        m/z 180.0655: n= 78, RT 92
+  tyrosine             m/z 182.0812: n= 66, RT 25
+  caffeine             m/z 195.0877: n= 73, RT 118
+  tryptophan           m/z 205.0972: n= 78, RT 56
+  cortisol             m/z 363.2166: n= 77, RT 232
+  LPC 16:0             m/z 496.3398: n= 32, RT 372
+  LPC 18:2             m/z 520.3398: n= 25, RT 360
+  PC 34:2              m/z 758.5694: n=  2, RT 709

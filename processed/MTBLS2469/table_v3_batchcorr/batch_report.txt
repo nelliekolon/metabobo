@@ -1,0 +1,5 @@
+held-out pools (n=13, offsets fitted on the other 15): median CV 64% -> 47%
+all pools (n=28), in-sample: median CV 65% -> 33%
+batches: 11, with pools: 7; without pools (nearest-batch offset borrowed): 2020-09-23, 2020-09-26, 2020-10-01, 2020-10-21
+runs corrected with a borrowed offset: 4 (01102020_Covid_TP_Severe_9203_3_P489_P_3, 21102020_Covid_TP_Severe_9172_2_P639_P_3, 23092020_Covid_TP_Severe_9030_2_P411_P_3, 26092020_Covid_TP_Severe_9172_1_P442_P_3)
+median |offset| per batch (log2): 2020-10-04 0.34, 2020-10-11 0.37, 2020-10-17 0.32, 2020-10-24 0.33, 2020-10-26 0.38, 2020-12-02 0.45, 2020-12-09 0.37

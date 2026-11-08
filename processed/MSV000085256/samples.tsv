@@ -1,0 +1,79 @@
+sample	subject	timepoint	matrix	role	group	health	disease	sex	age	injection	batch	include
+324_Plasma	324		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	69.0			1
+326_Plasma	326		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female	72.0			1
+328_Plasma	328		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	71.0			1
+330_Plasma	330		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	73.0			1
+332_Plasma	332		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	65.0			1
+334_Plasma	334		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	79.0			1
+336_Plasma	336		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	73.0			1
+338_Plasma	338		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female	78.0			1
+340_Plasma	340		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	69.0			1
+342_Plasma	342		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	70.0			1
+344_Plasma	344		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	75.0			1
+346_Plasma_20191118022730	346		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female	72.0			1
+348_Plasma_20191118024056	348		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	68.0			1
+350_Plasma_20191118025422	350		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	74.0			1
+352_Plasma_20191118030748	352		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	69.0			1
+354_Plasma_20191118032114	354		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female	86.0			1
+356_Plasma_20191118035138	356		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	71.0			1
+358_Plasma_20191118040504	358		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female	77.0			1
+360_Plasma_20191118041830	360		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	72.0			1
+362_Plasma_20191118043156	362		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	75.0			1
+364_Plasma_20191118044522	364		blood plasma	subject	Normal	healthy	Alzheimer's disease	female	74.0			1
+366_Plasma	366		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female	87.0			1
+368_Plasma_20191118051546	368		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	67.0			1
+370_Plasma	370		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	71.0			1
+372_Plasma	372		blood plasma	subject	Normal	healthy	Alzheimer's disease	female	65.0			1
+374_Plasma	374		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	66.0			1
+376_Plasma	376		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	74.0			1
+378_Plasma	378		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	72.0			1
+380_Plasma	380		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	70.0			1
+382_Plasma_20191118052912	382		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female	77.0			1
+384_Plasma	384		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	70.0			1
+386_Plasma_20191118054238	386		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	65.0			1
+388_Plasma	388		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	65.0			1
+390_Plasma	390		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	80.0			1
+392_Plasma	392		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	73.0			1
+394_Plasma	394		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female	73.0			1
+396_Plasma	396		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	65.0			1
+398_Plasma	398		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	72.0			1
+400_Plasma	400		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female				1
+402_Plasma	402		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	71.0			1
+404_Plasma	404		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male				1
+406_Plasma	406		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	72.0			1
+408_Plasma_20191118055604	408		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	71.0			1
+410_Plasma	410		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	70.0			1
+412_Plasma	412		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female	67.0			1
+414_Plasma	414		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	72.0			1
+416_Plasma	416		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	78.0			1
+418_Plasma	418		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	70.0			1
+420_Plasma	420		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	72.0			1
+422_Plasma	422		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	72.0			1
+424_Plasma	424		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	70.0			1
+426_Plasma	426		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	73.0			1
+428_Plasma	428		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female	74.0			1
+430_Plasma_20191118060930	430		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	69.0			1
+432_Plasma	432		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female	71.0			1
+434_Plasma	434		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	70.0			1
+436_Plasma	436		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	74.0			1
+438_Plasma	438		blood plasma	subject	Normal	healthy	Alzheimer's disease					1
+440_Plasma	440		blood plasma	subject	MCI	chronic illness	Alzheimer's disease					1
+442_Plasma	442		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	71.0			1
+444_Plasma	444		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	71.0			1
+470_Plasma	470		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female	68.0			1
+473_Plasma	473		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	male	79.0			1
+479_Plasma	479		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	67.0			1
+482_Plasma	482		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	71.0			1
+485_Plasma	485		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	72.0			1
+487_Plasma	487		blood plasma	subject	MCI	chronic illness	Alzheimer's disease	female	68.0			1
+494_Plasma	494		blood plasma	subject	Normal	healthy	Alzheimer's disease	female	70.0			1
+498_Plasma	498		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	73.0			1
+500_Plasma	500		blood plasma	subject	Normal	healthy	Alzheimer's disease	female	70.0			1
+502_Plasma	502		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	74.0			1
+504_Plasma	504		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	71.0			1
+509_Plasma	509		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	65.0			1
+511_Plasma	511		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	68.0			1
+513_Plasma	513		blood plasma	subject	Normal	healthy	Alzheimer's disease	female	73.0			1
+515_Plasma	515		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	74.0			1
+517_Plasma	517		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	64.0			1
+519_Plasma	519		blood plasma	subject	Normal	healthy	Alzheimer's disease	male	66.0			1
