@@ -17,9 +17,14 @@ import pyopenms as oms
 POL = {1: "positive", 2: "negative"}
 
 
+def reader(path):
+    """mzML or mzXML reader (some MetaboLights studies only provide mzXML)."""
+    return oms.MzXMLFile() if path.lower().endswith(".mzxml") else oms.MzMLFile()
+
+
 def measure(path):
     e = oms.MSExperiment(); opt = oms.PeakFileOptions(); opt.setFillData(False)
-    fh = oms.MzMLFile(); fh.setOptions(opt); fh.load(path, e)
+    fh = reader(path); fh.setOptions(opt); fh.load(path, e)
     sp = e.getSpectra()
     ms1 = [s for s in sp if s.getMSLevel() == 1]
     pols = {POL.get(s.getInstrumentSettings().getPolarity(), "unknown") for s in sp} - {"unknown"}
@@ -29,7 +34,7 @@ def measure(path):
         n_windows = len({(round(a), round(b)) for a, b in wins})
     else:                                  # no window recorded: load MS1 peaks, take observed extremes
         e2 = oms.MSExperiment(); opt2 = oms.PeakFileOptions(); opt2.setMSLevels([1])
-        fh2 = oms.MzMLFile(); fh2.setOptions(opt2); fh2.load(path, e2)
+        fh2 = reader(path); fh2.setOptions(opt2); fh2.load(path, e2)
         mz = [p for s in e2.getSpectra() for p in (s.get_peaks()[0][[0, -1]] if s.size() else [])]
         low, high, src, n_windows = min(mz), max(mz), "observed (approx)", 0
     return dict(
