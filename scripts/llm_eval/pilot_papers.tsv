@@ -1,0 +1,6 @@
+study	doi	pmcid	paper_role	note
+MSV000084556			none	EPMC hits are an acylcarnitine methods paper (2026) and a 5-ASA/IBD paper (2023); neither is the original RA study
+MSV000085256			none	only EPMC hit is the GNPS quick-start tools paper (2021), which reuses the data as a demo
+MSV000094097	10.3390/nu17172729	PMC12430150	original	Nutrients 2025; Basal/Day15 intervention design matches the files. Other hit (mSystems 2026) is a reuse
+MTBLS2469	10.1016/j.dib.2022.108765	PMC9678393	companion	Data in Brief 2023 from the same study; original (J Proteome Res 2021, 10.1021/acs.jproteome.1c00215) is not open access
+MTBLS2542	10.1038/s41467-021-24482-1	PMC8316550	original	Nat Commun 2021
