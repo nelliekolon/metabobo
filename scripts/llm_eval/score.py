@@ -37,7 +37,9 @@ def number(v):
 
 def instrument(v):
     v = norm(v)
-    for w in ["thermo fisher scientific", "thermo scientific", "thermo", "orbitrap", "mass spectrometer", "(", ")", "-", "™", "®"]:
+    v = re.sub(r"\bqexactive\b", "q exactive", v)
+    v = re.sub(r"\bqe\b", "q exactive", v)          # "QE HF", "QE plus": common lab shorthand
+    for w in ["thermo fisher scientific", "thermo scientific", "thermo", "orbitrap", "mass spectrometer", "(", ")", "-", "/", "™", "®"]:
         v = v.replace(w, " ")
     return re.sub(r"\s+", " ", v).strip()
 
@@ -51,7 +53,7 @@ def correct(field, value, truth):
         # the mzML records the model family (e.g. "Q Exactive"); a more specific answer
         # in that family ("Q Exactive HF") counts as compatible, not provably right
         a, t = instrument(value), instrument(truth)
-        return a == t or a.startswith(t + " ")
+        return a == t or a.startswith(t + " ") or f" {t} " in f" {a} "   # "dionex u3000 uhplc/q exactive plus"
     x, t = number(value), float(truth)
     if x is None:
         return False
