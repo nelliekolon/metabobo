@@ -76,9 +76,12 @@ def main():
     for tf in truth_f.split(","):
         for r in csv.DictReader(open(tf), delimiter="\t"):
             truth[r["study"]] = r
+    keep = {r["target"] for r in csv.DictReader(open(targets_f), delimiter="\t")}
     rows = []
     for path in sorted(glob.glob(os.path.join(runs, "*", "*.json"))):
         rec = json.load(open(path))
+        if rec["target"] not in keep:          # e.g. pilot runs kept in the same folder
+            continue
         if rec.get("answer") is None:
             rows.append(dict(model=rec["model_requested"], target=rec["target"], condition=rec["condition"],
                              field="(all)", value="", stated=False, quote_found=False, unsupported=False,
@@ -110,9 +113,9 @@ def main():
     use = [r for r in rows if not r["excluded"] and r["field"] != "(all)"]
     rep = [f"{len(rows)} answers scored ({sum(1 for r in rows if r['excluded'])} excluded)\n"]
     # majority baseline on raw-file fields: always answer the most common true value
-    rep.append("majority baseline (most common true value across the pilot acquisitions):")
+    rep.append("majority baseline (most common true value across the scored targets):")
     for f in SCORED:
-        vals = [truth[k][f] for k in truth if str(truth[k].get(f, "")).strip() not in ("", "unknown")]
+        vals = [truth[k][f] for k in truth if (k in keep or k in {r.split("_")[0] for r in keep}) and str(truth[k].get(f, "")).strip() not in ("", "unknown")]
         if not vals:
             continue
         top, n = Counter(vals).most_common(1)[0]
