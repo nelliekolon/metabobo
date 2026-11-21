@@ -29,6 +29,9 @@ test2.tsv
 # API keys
 .env
 
+# Eval answer key, inputs and results: kept local until the answer key is verified
+eval_private/
+
 # Paper and repository text fetched for the LLM eval (licences vary)
 fulltext.txt
 methods.txt

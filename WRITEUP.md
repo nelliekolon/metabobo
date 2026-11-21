@@ -123,5 +123,6 @@ For the LLM evaluation, only wrong answers were hand-checked, so a right answer 
 ## Code and data
 
 - Code, sample sheets and QC reports: this repo
+- LLM eval: the scripts are in `scripts/llm_eval/`; the answer key and per-study results are not public yet and will be added once the answer key is fully verified
 - Data: MassIVE MSV000084556, MSV000085256, MSV000094097; MetaboLights MTBLS2469
 - Original papers for each study: DOIs in `processed/paper_survey.tsv`
