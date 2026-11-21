@@ -1,5 +1,28 @@
 # metabobo: pilot harmonized human metabolomics resource
 
+## Status (2026-11-21)
+Pilot finished; this is a small study, not a finished resource.
+
+Done:
+- Steps 0-5 below run end to end on 4 public blood studies (MSV000084556, MSV000085256,
+  MSV000094097, MTBLS2469), all with the same fixed parameters.
+- Cross-study matching: only 88 of 7,602 reference features are matched in all three other
+  studies (processed/crossstudy/match_report.txt).
+- Transfer test (processed/crossstudy/ml_report.txt): sex and age models trained on
+  MSV000085256 and tested on the other studies. Underpowered: at most 20-21 test people per
+  study, wide confidence intervals, and age is never better than predicting the mean.
+- Pitfalls found by checks, not by luck: run day as strong as COVID severity in MTBLS2469;
+  sex tangled with diagnosis in MSV000085256; injection _P_2 is an MS2 run; saliva/stool
+  pools inside a blood study (see Study notes).
+- LLM follow-up (scripts/llm_eval/): extracting LC-MS method details from papers and
+  repository text, checked against values read from the raw files. Scoring is done for
+  45 studies; the answer key stays private (not in this repo) until the results are final.
+
+Not done / future work:
+- MTBLS2542 (51 GB) and any larger set of studies.
+- RT alignment within a study (off: it broke 8 runs on MSV000084556).
+- A test set large enough to say whether harmonization helps transfer.
+
 ## Folders
 - pilot_data/<study>/        raw downloads (mzML, or Thermo .raw for MetaboLights)
 - processed/<study>/features_v1/        one .featureXML per run (step 1)
