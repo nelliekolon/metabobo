@@ -26,8 +26,10 @@ __pycache__/
 test_usis.tsv
 test2.tsv
 
-# Eval answer key: kept local until the LLM eval has been run
-eval_private/
-
 # API keys
 .env
+
+# Paper and repository text fetched for the LLM eval (licences vary)
+fulltext.txt
+methods.txt
+repository.txt

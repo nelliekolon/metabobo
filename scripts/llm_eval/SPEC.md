@@ -71,7 +71,7 @@ All metrics per field and overall, with bootstrap intervals over studies.
   (not a later reuse) and downloading one raw file per study (about 200-300 MB each).
 
 ## Answer key
-Lives in `eval_private/` (gitignored) until results are final, so it cannot leak into the eval.
+Lives in `eval_private/`. It was kept out of the repo until the results were final, so it could not leak into the eval; it is now public with the results.
 Raw-file fields are filled by a script; repository and paper fields by hand, each with the
 source and a `verified` flag. `eval_private/gold/` is an unverified starting draft.
 
