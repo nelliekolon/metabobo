@@ -1,80 +1,50 @@
-# metabobo: pilot harmonized human metabolomics resource
+# metabobo
 
-## Status (2026-11-21)
-Pilot finished; this is a small study, not a finished resource.
+**Can a model trained on one public metabolomics study work on another?**
 
-Done:
-- Steps 0-5 below run end to end on 4 public blood studies (MSV000084556, MSV000085256,
-  MSV000094097, MTBLS2469), all with the same fixed parameters.
-- Cross-study matching: only 88 of 7,602 reference features are matched in all three other
-  studies (processed/crossstudy/match_report.txt).
-- Transfer test (processed/crossstudy/ml_report.txt): sex and age models trained on
-  MSV000085256 and tested on the other studies. Underpowered: at most 20-21 test people per
-  study, wide confidence intervals, and age is never better than predicting the mean.
-- Pitfalls found by checks, not by luck: run day as strong as COVID severity in MTBLS2469;
-  sex tangled with diagnosis in MSV000085256; injection _P_2 is an MS2 run; saliva/stool
-  pools inside a blood study (see Study notes).
-- LLM follow-up (scripts/llm_eval/): extracting LC-MS method details from papers and
-  repository text, checked against values read from the raw files. Scoring is done for
-  45 studies; the answer key stays private (not in this repo) until the results are final.
+Labs publish raw data from hundreds of human blood metabolomics studies, but almost every model built on them is trained and tested inside a single study. Pooling studies would give far bigger cohorts than any one lab can collect. I wanted to find out what it actually takes.
 
-Not done / future work:
-- MTBLS2542 (51 GB) and any larger set of studies.
-- RT alignment within a study (off: it broke 8 runs on MSV000084556).
-- A test set large enough to say whether harmonization helps transfer.
+I ran four public studies (127 people, about 40 GB of raw LC-MS data) through one pipeline with the same settings, matched features across them, and tested whether a simple model transfers from one study to the next. Then I tested whether an LLM can fill in the method details needed to scale this up, checking its answers against the raw files.
 
-## Folders
-- pilot_data/<study>/        raw downloads (mzML, or Thermo .raw for MetaboLights)
-- processed/<study>/features_v1/        one .featureXML per run (step 1)
-- processed/<study>/table_v2_noalign/   CURRENT feature table for the study (step 2-3)
-- processed/MSV000084556/table_v1/      superseded: RT alignment distorted 8 runs; ignore
-- processed/MSV000084556/features/      superseded first test; ignore
-- scripts/
+The full write-up is in [WRITEUP.md](WRITEUP.md).
 
-## Environment
-Run everything with .venv/bin/python (versions in requirements.txt). Keep pandas < 3:
-pandas 3 breaks check_table.py.
+## What I found
 
-## Pipeline (fixed parameters, same for every study)
-0. scripts/make_samples.py pilot_sample_metadata.tsv processed
-   Writes processed/<study>/samples.tsv: person, visit, matrix, pool vs subject, clinical
-   group, include flag (blood only; saliva/stool pools and MTBLS2469 _test runs excluded).
-   Per-study filename rules live in RULES at the top of the script.
-0b. (MetaboLights .raw only) scripts/convert_raw.py pilot_data/<study> pilot_data/<study>_mzML --samples processed/<study>/samples.tsv
-   ThermoRawFileParser (tools/, v2.0.0-dev osx-arm64): MS1 only, centroided, plain mzML.
-1. scripts/detect_features.py <mzML dir> <out dir>
-   OpenMS FeatureFinderMetabo on MS1: 5 ppm, noise 3000, SNR 3, single-trace features kept.
-2. scripts/build_table.py <feature dir> <out dir> --no-align --samples processed/<study>/samples.tsv
-   QT feature linking (10 ppm, 15 s). RT alignment is OFF by default for now: on
-   MSV000084556 the runs drift <2 s and PoseClustering alignment broke 8 runs.
-2b. (studies with pools spread over several batches) scripts/batch_correct.py <table dir> <out dir>
-   Per feature, shifts each batch (samples.tsv "batch") so its pools match the overall pool median
-   (log2). Batches without pools borrow the nearest batch's offset. Reports held-out pool CV.
-3. scripts/check_table.py <table dir> 0.8
-   Keeps features found in >=80% of samples, log2, min-imputation, median normalization;
-   reports pooled-QC CV, within-person similarity, PCA (by visit/matrix/role) and
-   known-compound hits. Reads ../samples.tsv; writes check_report.txt via tee.
-4. scripts/match_studies.py processed/crossstudy MSV000085256=<table dir> <study>=<table dir> ...
-   Matches each study's filtered features to a reference study: m/z within 10 ppm plus an
-   order-preserving (isotonic) RT map fitted on unambiguous high-intensity m/z anchors.
-   RT tolerance from cross-validated anchor error. Known compounds are held out as a check.
-   Output: feature_map.tsv (reference feature -> matched feature per study), match_report.txt.
-5. scripts/ml_crossstudy.py processed/crossstudy MSV000085256=<table dir> <study>=<table dir> ...
-   Sex (logistic) and age (ridge), trained on MSV000085256, tested on each other study on
-   shared features; no harmonization vs per-study z-scoring; per-person scoring; bootstrap CIs.
+**The shortcuts were there every time.** Most of the work went into catching things a model could learn instead of biology, each found by a check on the data rather than by a final number looking odd:
 
-## Study notes
-- MSV000085256: one plasma sample per person (MCI vs Normal); scan range m/z 100+.
-- MSV000094097: plasma AND serum from the same people; PC1 is plasma vs serum.
-  Scan range starts at m/z 150, so creatinine/proline/betaine/leucine are out of range.
-- MTBLS2469: each sample injected 3x; _P_2 is the MS2 (DDA) run, _P_3/_P_4 are MS1-only. _P_2
-  has fewer MS1 scans and agrees less in all 50 samples (scripts/check_injections.py), so only
-  _P_3 is used. Signal drifts between run days (pool CV
-  64%); batch_correct.py brings held-out pool CV to 47%. CURRENT table: table_v3_batchcorr.
-  Only 8 people over 9 run days, and COVID severity is confounded with run day: not usable
-  as a training set for severity.
-- RT differs between studies (e.g. tryptophan 56 s vs 140 s): match across studies by
-  m/z plus an RT mapping built from known compounds, not raw RT.
+- In one study, run day explained the main signal as well as COVID severity did.
+- In the training study, sex and diagnosis were tangled (14 of 19 women had MCI).
+- One of three "replicate" injections per sample was a different experiment (a fragmentation run).
+- Saliva and stool pools sat inside a blood study and dominated its PCA.
 
-## Downloading
-python3 ftp_download.py pilot_download_usis.tsv pilot_data [--only STUDY]
+**Few features survive the change of study.** Only 88 of the reference study's 7,602 well-detected features are found in all four studies.
+
+**Transfer is promising but underpowered.** A sex classifier with AUC 0.72 in its own study scores 0.68 on another study's plasma, 0.81 after per-study standardization, and 0.58 on serum from the same people. With 20 test people, the intervals overlap. Age never beats predicting the mean.
+
+**LLMs extract method details faithfully; the papers are the problem.** Across 45 studies, I compared what Claude (Opus 5.5 and Haiku 5.5) extracted from each paper with values read directly from the raw files. On the fields a raw file could check, Opus never misread or misattributed a value, and quotes that weren't in the text were rare (9 of 981). But about 1 in 4 studies' own text contradicts its raw data, so a faithful extractor inherits those errors. Checking against the raw data is what catches them.
+
+## Repo layout
+
+| Path | What's there |
+| --- | --- |
+| `scripts/` | The pipeline, steps 0-5 (see [docs/PIPELINE.md](docs/PIPELINE.md)) |
+| `scripts/llm_eval/` | The LLM metadata-extraction eval: study selection, text fetching, extraction, scoring ([SPEC.md](scripts/llm_eval/SPEC.md)) |
+| `processed/<study>/` | Sample sheets and QC reports for each study |
+| `processed/crossstudy/` | Feature matching and transfer results (`match_report.txt`, `ml_report.txt`) |
+| `processed/paper_survey.tsv` | 136 candidate public studies and their papers |
+
+Large files (raw data, feature tables) are not in the repo. `ftp_download.py` re-downloads the raw data, and the scripts regenerate everything else.
+
+## Running it
+
+Python 3 with the versions in `requirements.txt` (pyOpenMS, scikit-learn, pandas < 3). Step-by-step commands and study-specific notes are in [docs/PIPELINE.md](docs/PIPELINE.md).
+
+## Limitations
+
+This is a pilot, not a finished resource. The main limit is size: 127 people in all and 20 in the key test set, so every cross-study number has a wide interval. The four studies share no disease, so only sex and age could be tested. Everything is positive ion mode with one fixed noise cutoff across instruments.
+
+## Data
+
+MassIVE: MSV000084556, MSV000085256, MSV000094097. MetaboLights: MTBLS2469. Original papers are listed in `processed/paper_survey.tsv`.
+
+Built with Claude Code.
