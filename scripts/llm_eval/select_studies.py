@@ -15,7 +15,7 @@ files (ion mode and column from the assay name) and raw file names (to pick one 
 """
 import csv, json, re, sys, time, urllib.parse, urllib.request
 
-UA = {"User-Agent": "metapool-eval/0.1 (academic research script)"}
+UA = {"User-Agent": "metabopool-eval/0.1 (academic research script)"}
 STOP = set("the a an of and in for with to from by on at is are as using study analysis human plasma serum "
            "blood metabolomics metabolomic metabolite metabolites lc ms lcms untargeted patients".split())
 

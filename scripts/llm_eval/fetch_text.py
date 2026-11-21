@@ -13,7 +13,7 @@ Paper text is kept out of git (licences vary); only this script and papers.tsv a
 import csv, json, os, re, sys, time, urllib.request
 import xml.etree.ElementTree as ET
 
-UA = {"User-Agent": "metapool-eval/0.1 (academic research script)"}
+UA = {"User-Agent": "metabopool-eval/0.1 (academic research script)"}
 METHODS = re.compile(r"method|material|experimental|procedure|sample (preparation|collection)|"
                      r"lc[- ]?ms|mass spectrometr|metabolom|data (acquisition|analysis)", re.I)
 NOT_METHODS = re.compile(r"result|discussion|introduction|conclusion|acknowledg|author|funding|"

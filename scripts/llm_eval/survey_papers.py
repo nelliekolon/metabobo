@@ -5,7 +5,7 @@ usage: survey_papers.py <pilot_slice_136_datasets.csv> <out.tsv>"""
 import csv, json, re, sys, time, urllib.parse, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
-UA = {"User-Agent": "metapool-survey/0.1 (academic research script)"}
+UA = {"User-Agent": "metabopool-survey/0.1 (academic research script)"}
 
 
 def get(url, as_json=True, tries=3):

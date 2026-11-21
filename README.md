@@ -1,4 +1,4 @@
-# metapool
+# metabopool
 
 **Can a model trained on one public metabolomics study work on another?**
 

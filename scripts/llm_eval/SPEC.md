@@ -5,7 +5,7 @@ How accurately can an LLM extract analytical-method metadata for a public metabo
 from its paper, and how often does it state values the paper does not support?
 
 Why it matters: missing or wrong method metadata is the bottleneck for combining public studies
-(see the metapool write-up: RT scales, scan ranges and sample types differ between studies and are
+(see the metabopool write-up: RT scales, scan ranges and sample types differ between studies and are
 rarely recorded per sample). If LLMs can fill it in reliably, harmonization scales to hundreds of
 studies; if they hallucinate plausible values, they make it worse in a way that is hard to see.
 
