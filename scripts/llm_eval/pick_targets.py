@@ -11,7 +11,7 @@ answer key comes from the repository's structured fields (truth_tier = repositor
 """
 import csv, json, re, sys, time, urllib.request, ftplib
 
-UA = {"User-Agent": "metabobo-eval/0.1 (academic research script)"}
+UA = {"User-Agent": "metapool-eval/0.1 (academic research script)"}
 EBI = "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public"
 
 

@@ -14,7 +14,7 @@ This is a draft: every value is checked by hand against the paper before it is u
 import csv, ftplib, re, sys, time, urllib.request
 from collections import Counter
 
-UA = {"User-Agent": "metabobo-eval/0.1 (academic research script)"}
+UA = {"User-Agent": "metapool-eval/0.1 (academic research script)"}
 EBI = "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public"
 
 
